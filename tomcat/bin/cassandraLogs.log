@@ -1,0 +1,1236 @@
+2017-12-05 19:38:45 INFO  GuavaCompatibility:132 - Detected Guava >= 19 in the classpath, using modern compatibility layer
+2017-12-05 19:38:45 DEBUG SystemProperties:32 - com.datastax.driver.NEW_NODE_DELAY_SECONDS is undefined, using default value 1
+2017-12-05 19:38:45 DEBUG SystemProperties:32 - com.datastax.driver.NOTIF_LOCK_TIMEOUT_SECONDS is undefined, using default value 60
+2017-12-05 19:38:45 DEBUG SystemProperties:48 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2017-12-05 19:38:45 INFO  ClockFactory:52 - Using native clock to generate timestamps.
+2017-12-05 19:38:45 DEBUG SystemProperties:32 - com.datastax.driver.NON_BLOCKING_EXECUTOR_SIZE is undefined, using default value 8
+2017-12-05 19:38:45 DEBUG Cluster:1416 - Starting new cluster with contact points [/127.0.0.1:9042]
+2017-12-05 19:38:45 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2017-12-05 19:38:45 DEBUG PlatformDependent0:76 - -Dio.netty.noUnsafe: false
+2017-12-05 19:38:45 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2017-12-05 19:38:45 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2017-12-05 19:38:45 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2017-12-05 19:38:45 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2017-12-05 19:38:45 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2017-12-05 19:38:45 DEBUG PlatformDependent0:91 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.ClassNotFoundException: jdk.internal.misc.Unsafe
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1291)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:290)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:283)
+	at io.netty.util.internal.PlatformDependent.getSystemClassLoader(PlatformDependent.java:641)
+	at io.netty.util.internal.PlatformDependent.isAndroid0(PlatformDependent.java:665)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:65)
+	at io.netty.util.Signal.<clinit>(Signal.java:31)
+	at io.netty.util.concurrent.DefaultPromise.<clinit>(DefaultPromise.java:43)
+	at io.netty.util.concurrent.GlobalEventExecutor.<init>(GlobalEventExecutor.java:44)
+	at io.netty.util.concurrent.GlobalEventExecutor.<clinit>(GlobalEventExecutor.java:41)
+	at com.datastax.driver.core.Connection$Factory.<init>(Connection.java:752)
+	at com.datastax.driver.core.Cluster$Manager.init(Cluster.java:1446)
+	at com.datastax.driver.core.Cluster.init(Cluster.java:159)
+	at com.datastax.driver.core.Cluster.connectAsync(Cluster.java:330)
+	at com.datastax.driver.core.Cluster.connectAsync(Cluster.java:305)
+	at com.datastax.driver.core.Cluster.connect(Cluster.java:247)
+	at com.sjsu.cs249.HappyPatients.CassandraConnector.connect(CassandraConnector.java:30)
+	at com.sjsu.cs249.Services.HappyPatientsService.retrievePatient(HappyPatientsService.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:144)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:161)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:160)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:99)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:308)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:291)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1140)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:403)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:334)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-05 19:38:45 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-12-05 19:38:45 DEBUG PlatformDependent:76 - Java version: 8
+2017-12-05 19:38:45 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2017-12-05 19:38:45 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: /Users/erichan/Downloads/apache-tomcat-8.5.24/temp (java.io.tmpdir)
+2017-12-05 19:38:45 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-12-05 19:38:45 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2017-12-05 19:38:45 DEBUG PlatformDependent:76 - -Dio.netty.maxDirectMemory: 3817865216 bytes
+2017-12-05 19:38:45 DEBUG PlatformDependent:76 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-12-05 19:38:45 DEBUG CleanerJava6:71 - java.nio.ByteBuffer.cleaner(): available
+2017-12-05 19:38:45 DEBUG SystemProperties:48 - com.datastax.driver.FORCE_NIO is undefined, using default value false
+2017-12-05 19:38:45 INFO  NettyUtil:83 - Did not find Netty's native epoll transport in the classpath, defaulting to NIO.
+2017-12-05 19:38:45 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 16
+2017-12-05 19:38:46 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2017-12-05 19:38:46 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-12-05 19:38:46 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2017-12-05 19:38:46 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.level: simple
+2017-12-05 19:38:46 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.maxRecords: 4
+2017-12-05 19:38:46 DEBUG ResourceLeakDetectorFactory:76 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@44797dce
+2017-12-05 19:38:46 DEBUG SystemProperties:48 - com.datastax.driver.EXTENDED_PEER_CHECK is undefined, using default value true
+2017-12-05 19:38:46 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-12-05 19:38:46 DEBUG SystemProperties:48 - com.datastax.driver.DISABLE_COALESCING is undefined, using default value false
+2017-12-05 19:38:46 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numHeapArenas: 16
+2017-12-05 19:38:46 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numDirectArenas: 16
+2017-12-05 19:38:46 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.pageSize: 8192
+2017-12-05 19:38:46 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxOrder: 11
+2017-12-05 19:38:46 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.chunkSize: 16777216
+2017-12-05 19:38:46 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.tinyCacheSize: 512
+2017-12-05 19:38:46 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.smallCacheSize: 256
+2017-12-05 19:38:46 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.normalCacheSize: 64
+2017-12-05 19:38:46 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-12-05 19:38:46 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-12-05 19:38:46 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-12-05 19:38:46 DEBUG ByteBufUtil:76 - -Dio.netty.allocator.type: unpooled
+2017-12-05 19:38:46 DEBUG ByteBufUtil:76 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-12-05 19:38:46 DEBUG ByteBufUtil:76 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-12-05 19:38:46 DEBUG Connection:167 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:38:46 DEBUG Recycler:76 - -Dio.netty.recycler.maxCapacity.default: 32768
+2017-12-05 19:38:46 DEBUG Recycler:76 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2017-12-05 19:38:46 DEBUG Recycler:76 - -Dio.netty.recycler.linkCapacity: 16
+2017-12-05 19:38:46 DEBUG Recycler:76 - -Dio.netty.recycler.ratio: 8
+2017-12-05 19:38:46 DEBUG AbstractByteBuf:81 - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2017-12-05 19:38:46 DEBUG ResourceLeakDetectorFactory:76 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@15dbabb3
+2017-12-05 19:38:46 DEBUG SystemProperties:32 - com.datastax.driver.NATIVE_TRANSPORT_MAX_FRAME_SIZE_IN_MB is undefined, using default value 256
+2017-12-05 19:38:46 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:38:46 DEBUG ControlConnection:536 - [Control connection] Refreshing node list and token map
+2017-12-05 19:38:46 DEBUG ControlConnection:275 - [Control connection] Refreshing schema
+2017-12-05 19:38:46 DEBUG STATES:183 - [Control connection] established to /127.0.0.1:9042
+2017-12-05 19:38:46 INFO  DCAwareRoundRobinPolicy:95 - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2017-12-05 19:38:46 INFO  Cluster:1568 - New Cassandra host /127.0.0.1:9042 added
+2017-12-05 19:38:46 DEBUG SystemProperties:48 - com.datastax.driver.CHECK_IO_DEADLOCKS is undefined, using default value true
+2017-12-05 19:38:46 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 2
+2017-12-05 19:38:46 DEBUG Connection:167 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:38:46 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:38:46 DEBUG HostConnectionPool:152 - Created connection pool to host /127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-12-05 19:38:46 DEBUG Session:364 - Added connection pool for /127.0.0.1:9042
+2017-12-05 19:38:46 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 3
+2017-12-05 19:38:46 DEBUG Connection:167 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:38:46 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:38:46 DEBUG HostConnectionPool:152 - Created connection pool to host /127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-12-05 19:38:46 DEBUG Session:364 - Added connection pool for /127.0.0.1:9042
+2017-12-05 19:38:46 DEBUG Connection:518 - Connection[/127.0.0.1:9042-3, inFlight=1, closed=false] Setting keyspace hospitalops
+2017-12-05 19:38:46 DEBUG Connection:526 - Connection[/127.0.0.1:9042-3, inFlight=1, closed=false] Keyspace set to hospitalops
+2017-12-05 19:38:46 DEBUG Connection:690 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=true] closing connection
+2017-12-05 19:38:46 DEBUG STATES:96 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-3, inFlight=0, closed=true] closed, remaining = 2
+2017-12-05 19:38:46 DEBUG Cluster:1673 - Shutting down
+2017-12-05 19:38:46 DEBUG Connection:690 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=true] closing connection
+2017-12-05 19:38:46 DEBUG STATES:96 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-1, inFlight=0, closed=true] closed, remaining = 1
+2017-12-05 19:38:46 DEBUG Connection:690 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=true] closing connection
+2017-12-05 19:38:46 DEBUG STATES:96 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-2, inFlight=0, closed=true] closed, remaining = 0
+2017-12-05 19:38:48 DEBUG PoolThreadCache:81 - Freed 4 thread-local buffer(s) from thread: cluster1-nio-worker-2
+2017-12-05 19:38:48 DEBUG PoolThreadCache:81 - Freed 27 thread-local buffer(s) from thread: cluster1-nio-worker-0
+2017-12-05 19:38:48 DEBUG PoolThreadCache:81 - Freed 9 thread-local buffer(s) from thread: cluster1-nio-worker-4
+2017-12-05 19:39:06 DEBUG SystemProperties:48 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2017-12-05 19:39:06 INFO  ClockFactory:52 - Using native clock to generate timestamps.
+2017-12-05 19:39:06 DEBUG Cluster:1416 - Starting new cluster with contact points [/127.0.0.1:9042]
+2017-12-05 19:39:06 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-12-05 19:39:06 DEBUG Connection:167 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:39:06 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:39:06 DEBUG ControlConnection:536 - [Control connection] Refreshing node list and token map
+2017-12-05 19:39:07 DEBUG ControlConnection:275 - [Control connection] Refreshing schema
+2017-12-05 19:39:07 DEBUG STATES:183 - [Control connection] established to /127.0.0.1:9042
+2017-12-05 19:39:07 INFO  DCAwareRoundRobinPolicy:95 - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2017-12-05 19:39:07 INFO  Cluster:1568 - New Cassandra host /127.0.0.1:9042 added
+2017-12-05 19:39:07 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 2
+2017-12-05 19:39:07 DEBUG Connection:167 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:39:07 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:39:07 DEBUG HostConnectionPool:152 - Created connection pool to host /127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-12-05 19:39:07 DEBUG Session:364 - Added connection pool for /127.0.0.1:9042
+2017-12-05 19:39:07 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 3
+2017-12-05 19:39:07 DEBUG Connection:167 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:39:07 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:39:07 DEBUG HostConnectionPool:152 - Created connection pool to host /127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-12-05 19:39:07 DEBUG Session:364 - Added connection pool for /127.0.0.1:9042
+2017-12-05 19:39:07 DEBUG Connection:518 - Connection[/127.0.0.1:9042-3, inFlight=1, closed=false] Setting keyspace hospitalops
+2017-12-05 19:39:07 DEBUG Connection:526 - Connection[/127.0.0.1:9042-3, inFlight=1, closed=false] Keyspace set to hospitalops
+2017-12-05 19:39:07 DEBUG Connection:690 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=true] closing connection
+2017-12-05 19:39:07 DEBUG STATES:96 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-3, inFlight=0, closed=true] closed, remaining = 2
+2017-12-05 19:39:07 DEBUG Cluster:1673 - Shutting down
+2017-12-05 19:39:07 DEBUG Connection:690 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=true] closing connection
+2017-12-05 19:39:07 DEBUG STATES:96 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-1, inFlight=0, closed=true] closed, remaining = 1
+2017-12-05 19:39:07 DEBUG Connection:690 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=true] closing connection
+2017-12-05 19:39:07 DEBUG STATES:96 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-2, inFlight=0, closed=true] closed, remaining = 0
+2017-12-05 19:39:09 DEBUG PoolThreadCache:81 - Freed 9 thread-local buffer(s) from thread: cluster2-nio-worker-4
+2017-12-05 19:39:09 DEBUG PoolThreadCache:81 - Freed 4 thread-local buffer(s) from thread: cluster2-nio-worker-2
+2017-12-05 19:39:09 DEBUG PoolThreadCache:81 - Freed 27 thread-local buffer(s) from thread: cluster2-nio-worker-0
+2017-12-05 19:42:59 INFO  GuavaCompatibility:132 - Detected Guava >= 19 in the classpath, using modern compatibility layer
+2017-12-05 19:42:59 DEBUG SystemProperties:32 - com.datastax.driver.NEW_NODE_DELAY_SECONDS is undefined, using default value 1
+2017-12-05 19:42:59 DEBUG SystemProperties:32 - com.datastax.driver.NOTIF_LOCK_TIMEOUT_SECONDS is undefined, using default value 60
+2017-12-05 19:43:00 DEBUG SystemProperties:48 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2017-12-05 19:43:00 INFO  ClockFactory:52 - Using native clock to generate timestamps.
+2017-12-05 19:43:00 DEBUG SystemProperties:32 - com.datastax.driver.NON_BLOCKING_EXECUTOR_SIZE is undefined, using default value 8
+2017-12-05 19:43:00 DEBUG Cluster:1416 - Starting new cluster with contact points [/127.0.0.1:9042]
+2017-12-05 19:43:00 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2017-12-05 19:43:00 DEBUG PlatformDependent0:76 - -Dio.netty.noUnsafe: false
+2017-12-05 19:43:00 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2017-12-05 19:43:00 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2017-12-05 19:43:00 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2017-12-05 19:43:00 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2017-12-05 19:43:00 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2017-12-05 19:43:00 DEBUG PlatformDependent0:91 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.ClassNotFoundException: jdk.internal.misc.Unsafe
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1291)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:290)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:283)
+	at io.netty.util.internal.PlatformDependent.getSystemClassLoader(PlatformDependent.java:641)
+	at io.netty.util.internal.PlatformDependent.isAndroid0(PlatformDependent.java:665)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:65)
+	at io.netty.util.Signal.<clinit>(Signal.java:31)
+	at io.netty.util.concurrent.DefaultPromise.<clinit>(DefaultPromise.java:43)
+	at io.netty.util.concurrent.GlobalEventExecutor.<init>(GlobalEventExecutor.java:44)
+	at io.netty.util.concurrent.GlobalEventExecutor.<clinit>(GlobalEventExecutor.java:41)
+	at com.datastax.driver.core.Connection$Factory.<init>(Connection.java:752)
+	at com.datastax.driver.core.Cluster$Manager.init(Cluster.java:1446)
+	at com.datastax.driver.core.Cluster.init(Cluster.java:159)
+	at com.datastax.driver.core.Cluster.connectAsync(Cluster.java:330)
+	at com.datastax.driver.core.Cluster.connectAsync(Cluster.java:305)
+	at com.datastax.driver.core.Cluster.connect(Cluster.java:247)
+	at com.sjsu.cs249.HappyPatients.CassandraConnector.connect(CassandraConnector.java:30)
+	at com.sjsu.cs249.Services.HappyPatientsService.retrievePatient(HappyPatientsService.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:144)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:161)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:160)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:99)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:308)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:291)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1140)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:403)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:334)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-05 19:43:00 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-12-05 19:43:00 DEBUG PlatformDependent:76 - Java version: 8
+2017-12-05 19:43:00 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2017-12-05 19:43:00 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: /Users/erichan/Downloads/apache-tomcat-8.5.24/temp (java.io.tmpdir)
+2017-12-05 19:43:00 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-12-05 19:43:00 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2017-12-05 19:43:00 DEBUG PlatformDependent:76 - -Dio.netty.maxDirectMemory: 3817865216 bytes
+2017-12-05 19:43:00 DEBUG PlatformDependent:76 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-12-05 19:43:00 DEBUG CleanerJava6:71 - java.nio.ByteBuffer.cleaner(): available
+2017-12-05 19:43:00 DEBUG SystemProperties:48 - com.datastax.driver.FORCE_NIO is undefined, using default value false
+2017-12-05 19:43:00 INFO  NettyUtil:83 - Did not find Netty's native epoll transport in the classpath, defaulting to NIO.
+2017-12-05 19:43:00 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 16
+2017-12-05 19:43:00 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2017-12-05 19:43:00 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-12-05 19:43:00 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2017-12-05 19:43:00 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.level: simple
+2017-12-05 19:43:00 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.maxRecords: 4
+2017-12-05 19:43:00 DEBUG ResourceLeakDetectorFactory:76 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@bd48a26
+2017-12-05 19:43:00 DEBUG SystemProperties:48 - com.datastax.driver.EXTENDED_PEER_CHECK is undefined, using default value true
+2017-12-05 19:43:00 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-12-05 19:43:00 DEBUG SystemProperties:48 - com.datastax.driver.DISABLE_COALESCING is undefined, using default value false
+2017-12-05 19:43:00 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numHeapArenas: 16
+2017-12-05 19:43:00 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numDirectArenas: 16
+2017-12-05 19:43:00 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.pageSize: 8192
+2017-12-05 19:43:00 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxOrder: 11
+2017-12-05 19:43:00 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.chunkSize: 16777216
+2017-12-05 19:43:00 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.tinyCacheSize: 512
+2017-12-05 19:43:00 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.smallCacheSize: 256
+2017-12-05 19:43:00 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.normalCacheSize: 64
+2017-12-05 19:43:00 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-12-05 19:43:00 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-12-05 19:43:00 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-12-05 19:43:00 DEBUG ByteBufUtil:76 - -Dio.netty.allocator.type: unpooled
+2017-12-05 19:43:00 DEBUG ByteBufUtil:76 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-12-05 19:43:00 DEBUG ByteBufUtil:76 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-12-05 19:43:00 DEBUG Connection:167 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:43:00 DEBUG Recycler:76 - -Dio.netty.recycler.maxCapacity.default: 32768
+2017-12-05 19:43:00 DEBUG Recycler:76 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2017-12-05 19:43:00 DEBUG Recycler:76 - -Dio.netty.recycler.linkCapacity: 16
+2017-12-05 19:43:00 DEBUG Recycler:76 - -Dio.netty.recycler.ratio: 8
+2017-12-05 19:43:00 DEBUG AbstractByteBuf:81 - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2017-12-05 19:43:00 DEBUG ResourceLeakDetectorFactory:76 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3eb9b419
+2017-12-05 19:43:00 DEBUG SystemProperties:32 - com.datastax.driver.NATIVE_TRANSPORT_MAX_FRAME_SIZE_IN_MB is undefined, using default value 256
+2017-12-05 19:43:00 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:43:00 DEBUG ControlConnection:536 - [Control connection] Refreshing node list and token map
+2017-12-05 19:43:00 DEBUG ControlConnection:275 - [Control connection] Refreshing schema
+2017-12-05 19:43:00 DEBUG STATES:183 - [Control connection] established to /127.0.0.1:9042
+2017-12-05 19:43:00 INFO  DCAwareRoundRobinPolicy:95 - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2017-12-05 19:43:00 INFO  Cluster:1568 - New Cassandra host /127.0.0.1:9042 added
+2017-12-05 19:43:00 DEBUG SystemProperties:48 - com.datastax.driver.CHECK_IO_DEADLOCKS is undefined, using default value true
+2017-12-05 19:43:00 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 2
+2017-12-05 19:43:00 DEBUG Connection:167 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:43:00 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:43:00 DEBUG HostConnectionPool:152 - Created connection pool to host /127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-12-05 19:43:00 DEBUG Session:364 - Added connection pool for /127.0.0.1:9042
+2017-12-05 19:43:00 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 3
+2017-12-05 19:43:00 DEBUG Connection:167 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:43:00 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:43:00 DEBUG HostConnectionPool:152 - Created connection pool to host /127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-12-05 19:43:00 DEBUG Session:364 - Added connection pool for /127.0.0.1:9042
+2017-12-05 19:43:00 DEBUG Connection:518 - Connection[/127.0.0.1:9042-3, inFlight=1, closed=false] Setting keyspace hospitalops
+2017-12-05 19:43:00 DEBUG Connection:526 - Connection[/127.0.0.1:9042-3, inFlight=1, closed=false] Keyspace set to hospitalops
+2017-12-05 19:43:00 DEBUG Connection:690 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=true] closing connection
+2017-12-05 19:43:00 DEBUG STATES:96 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-3, inFlight=0, closed=true] closed, remaining = 2
+2017-12-05 19:43:00 DEBUG Cluster:1673 - Shutting down
+2017-12-05 19:43:00 DEBUG Connection:690 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=true] closing connection
+2017-12-05 19:43:00 DEBUG STATES:96 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-1, inFlight=0, closed=true] closed, remaining = 1
+2017-12-05 19:43:00 DEBUG Connection:690 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=true] closing connection
+2017-12-05 19:43:00 DEBUG STATES:96 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-2, inFlight=0, closed=true] closed, remaining = 0
+2017-12-05 19:43:02 DEBUG PoolThreadCache:81 - Freed 9 thread-local buffer(s) from thread: cluster1-nio-worker-4
+2017-12-05 19:43:02 DEBUG PoolThreadCache:81 - Freed 27 thread-local buffer(s) from thread: cluster1-nio-worker-0
+2017-12-05 19:43:02 DEBUG PoolThreadCache:81 - Freed 4 thread-local buffer(s) from thread: cluster1-nio-worker-2
+2017-12-05 19:44:42 DEBUG SystemProperties:48 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2017-12-05 19:44:42 INFO  ClockFactory:52 - Using native clock to generate timestamps.
+2017-12-05 19:44:42 DEBUG Cluster:1416 - Starting new cluster with contact points [/127.0.0.1:9042]
+2017-12-05 19:44:42 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-12-05 19:44:42 DEBUG Connection:167 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:44:42 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:44:42 DEBUG ControlConnection:536 - [Control connection] Refreshing node list and token map
+2017-12-05 19:44:42 DEBUG ControlConnection:275 - [Control connection] Refreshing schema
+2017-12-05 19:44:42 DEBUG STATES:183 - [Control connection] established to /127.0.0.1:9042
+2017-12-05 19:44:42 INFO  DCAwareRoundRobinPolicy:95 - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2017-12-05 19:44:42 INFO  Cluster:1568 - New Cassandra host /127.0.0.1:9042 added
+2017-12-05 19:44:42 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 2
+2017-12-05 19:44:42 DEBUG Connection:167 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:44:42 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:44:42 DEBUG HostConnectionPool:152 - Created connection pool to host /127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-12-05 19:44:42 DEBUG Session:364 - Added connection pool for /127.0.0.1:9042
+2017-12-05 19:44:42 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 3
+2017-12-05 19:44:42 DEBUG Connection:167 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:44:42 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:44:42 DEBUG HostConnectionPool:152 - Created connection pool to host /127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-12-05 19:44:42 DEBUG Session:364 - Added connection pool for /127.0.0.1:9042
+2017-12-05 19:45:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:45:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:45:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:45:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:45:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:45:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:45:14 DEBUG SystemProperties:48 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2017-12-05 19:45:14 INFO  ClockFactory:52 - Using native clock to generate timestamps.
+2017-12-05 19:45:14 DEBUG Cluster:1416 - Starting new cluster with contact points [/127.0.0.1:9042]
+2017-12-05 19:45:14 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-12-05 19:45:14 DEBUG Connection:167 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:45:14 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:45:14 DEBUG ControlConnection:536 - [Control connection] Refreshing node list and token map
+2017-12-05 19:45:14 DEBUG ControlConnection:275 - [Control connection] Refreshing schema
+2017-12-05 19:45:14 DEBUG STATES:183 - [Control connection] established to /127.0.0.1:9042
+2017-12-05 19:45:14 INFO  DCAwareRoundRobinPolicy:95 - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2017-12-05 19:45:14 INFO  Cluster:1568 - New Cassandra host /127.0.0.1:9042 added
+2017-12-05 19:45:14 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 2
+2017-12-05 19:45:14 DEBUG Connection:167 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:45:14 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:45:14 DEBUG HostConnectionPool:152 - Created connection pool to host /127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-12-05 19:45:14 DEBUG Session:364 - Added connection pool for /127.0.0.1:9042
+2017-12-05 19:45:14 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 3
+2017-12-05 19:45:14 DEBUG Connection:167 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:45:14 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:45:14 DEBUG HostConnectionPool:152 - Created connection pool to host /127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-12-05 19:45:14 DEBUG Session:364 - Added connection pool for /127.0.0.1:9042
+2017-12-05 19:45:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:45:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:45:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:45:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:45:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:45:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:45:44 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:45:44 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:45:44 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:45:44 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:45:44 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:45:44 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:46:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:46:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:46:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:46:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:46:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:46:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:46:14 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:46:14 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:46:14 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:46:14 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:46:14 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:46:14 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:46:16 DEBUG SystemProperties:48 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2017-12-05 19:46:16 INFO  ClockFactory:52 - Using native clock to generate timestamps.
+2017-12-05 19:46:16 DEBUG Cluster:1416 - Starting new cluster with contact points [/127.0.0.1:9042]
+2017-12-05 19:46:16 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-12-05 19:46:16 DEBUG Connection:167 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:46:16 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:46:16 DEBUG ControlConnection:536 - [Control connection] Refreshing node list and token map
+2017-12-05 19:46:16 DEBUG ControlConnection:275 - [Control connection] Refreshing schema
+2017-12-05 19:46:16 DEBUG STATES:183 - [Control connection] established to /127.0.0.1:9042
+2017-12-05 19:46:16 INFO  DCAwareRoundRobinPolicy:95 - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2017-12-05 19:46:16 INFO  Cluster:1568 - New Cassandra host /127.0.0.1:9042 added
+2017-12-05 19:46:16 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 2
+2017-12-05 19:46:16 DEBUG Connection:167 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:46:16 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:46:16 DEBUG HostConnectionPool:152 - Created connection pool to host /127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-12-05 19:46:16 DEBUG Session:364 - Added connection pool for /127.0.0.1:9042
+2017-12-05 19:46:16 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 3
+2017-12-05 19:46:16 DEBUG Connection:167 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:46:16 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:46:16 DEBUG HostConnectionPool:152 - Created connection pool to host /127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-12-05 19:46:16 DEBUG Session:364 - Added connection pool for /127.0.0.1:9042
+2017-12-05 19:46:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:46:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:46:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:46:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:46:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:46:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:46:44 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:46:44 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:46:44 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:46:44 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:46:44 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:46:44 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:46:46 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:46:46 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:46:46 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:46:46 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:46:46 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:46:46 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:47:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:47:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:47:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:47:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:47:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:47:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:47:14 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:47:14 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:47:14 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:47:14 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:47:14 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:47:14 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:47:16 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:47:16 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:47:16 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:47:16 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:47:16 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:47:16 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:47:29 DEBUG SystemProperties:48 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2017-12-05 19:47:29 INFO  ClockFactory:52 - Using native clock to generate timestamps.
+2017-12-05 19:47:29 DEBUG Cluster:1416 - Starting new cluster with contact points [/127.0.0.1:9042]
+2017-12-05 19:47:29 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-12-05 19:47:29 DEBUG Connection:167 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:47:29 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:47:29 DEBUG ControlConnection:536 - [Control connection] Refreshing node list and token map
+2017-12-05 19:47:29 DEBUG ControlConnection:275 - [Control connection] Refreshing schema
+2017-12-05 19:47:29 DEBUG STATES:183 - [Control connection] established to /127.0.0.1:9042
+2017-12-05 19:47:29 INFO  DCAwareRoundRobinPolicy:95 - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2017-12-05 19:47:29 INFO  Cluster:1568 - New Cassandra host /127.0.0.1:9042 added
+2017-12-05 19:47:29 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 2
+2017-12-05 19:47:29 DEBUG Connection:167 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:47:29 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:47:29 DEBUG HostConnectionPool:152 - Created connection pool to host /127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-12-05 19:47:29 DEBUG Session:364 - Added connection pool for /127.0.0.1:9042
+2017-12-05 19:47:29 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 3
+2017-12-05 19:47:29 DEBUG Connection:167 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:47:29 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:47:29 DEBUG HostConnectionPool:152 - Created connection pool to host /127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-12-05 19:47:29 DEBUG Session:364 - Added connection pool for /127.0.0.1:9042
+2017-12-05 19:47:34 INFO  UUIDs:156 - PID obtained through native call to getpid(): 3173
+2017-12-05 19:47:34 DEBUG Connection:518 - Connection[/127.0.0.1:9042-3, inFlight=1, closed=false] Setting keyspace hospitalops
+2017-12-05 19:47:34 DEBUG Connection:526 - Connection[/127.0.0.1:9042-3, inFlight=1, closed=false] Keyspace set to hospitalops
+2017-12-05 19:47:34 DEBUG Connection:690 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=true] closing connection
+2017-12-05 19:47:34 DEBUG STATES:96 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-3, inFlight=0, closed=true] closed, remaining = 2
+2017-12-05 19:47:34 DEBUG Cluster:1673 - Shutting down
+2017-12-05 19:47:34 DEBUG Connection:690 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=true] closing connection
+2017-12-05 19:47:34 DEBUG STATES:96 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-1, inFlight=0, closed=true] closed, remaining = 1
+2017-12-05 19:47:34 DEBUG Connection:690 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=true] closing connection
+2017-12-05 19:47:34 DEBUG STATES:96 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-2, inFlight=0, closed=true] closed, remaining = 0
+2017-12-05 19:47:36 DEBUG PoolThreadCache:81 - Freed 4 thread-local buffer(s) from thread: cluster5-nio-worker-2
+2017-12-05 19:47:36 DEBUG PoolThreadCache:81 - Freed 27 thread-local buffer(s) from thread: cluster5-nio-worker-0
+2017-12-05 19:47:36 DEBUG PoolThreadCache:81 - Freed 9 thread-local buffer(s) from thread: cluster5-nio-worker-4
+2017-12-05 19:47:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:47:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:47:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:47:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:47:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:47:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:47:44 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:47:44 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:47:44 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:47:44 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:47:44 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:47:44 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:47:46 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:47:46 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:47:46 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:47:46 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:47:46 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:47:46 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:06 DEBUG SystemProperties:48 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2017-12-05 19:48:06 INFO  ClockFactory:52 - Using native clock to generate timestamps.
+2017-12-05 19:48:06 DEBUG Cluster:1416 - Starting new cluster with contact points [/127.0.0.1:9042]
+2017-12-05 19:48:06 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-12-05 19:48:06 DEBUG Connection:167 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:48:06 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:48:06 DEBUG ControlConnection:536 - [Control connection] Refreshing node list and token map
+2017-12-05 19:48:06 DEBUG ControlConnection:275 - [Control connection] Refreshing schema
+2017-12-05 19:48:06 DEBUG STATES:183 - [Control connection] established to /127.0.0.1:9042
+2017-12-05 19:48:06 INFO  DCAwareRoundRobinPolicy:95 - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2017-12-05 19:48:06 INFO  Cluster:1568 - New Cassandra host /127.0.0.1:9042 added
+2017-12-05 19:48:06 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 2
+2017-12-05 19:48:06 DEBUG Connection:167 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:48:06 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:48:06 DEBUG HostConnectionPool:152 - Created connection pool to host /127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-12-05 19:48:06 DEBUG Session:364 - Added connection pool for /127.0.0.1:9042
+2017-12-05 19:48:06 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 3
+2017-12-05 19:48:06 DEBUG Connection:167 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:48:06 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:48:06 DEBUG HostConnectionPool:152 - Created connection pool to host /127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-12-05 19:48:06 DEBUG Session:364 - Added connection pool for /127.0.0.1:9042
+2017-12-05 19:48:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:14 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:14 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:14 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:14 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:14 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:14 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:16 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:16 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:16 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:16 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:16 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:16 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:25 DEBUG SystemProperties:48 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2017-12-05 19:48:25 INFO  ClockFactory:52 - Using native clock to generate timestamps.
+2017-12-05 19:48:25 DEBUG Cluster:1416 - Starting new cluster with contact points [/127.0.0.1:9042]
+2017-12-05 19:48:25 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-12-05 19:48:25 DEBUG Connection:167 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:48:25 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:48:25 DEBUG ControlConnection:536 - [Control connection] Refreshing node list and token map
+2017-12-05 19:48:25 DEBUG ControlConnection:275 - [Control connection] Refreshing schema
+2017-12-05 19:48:25 DEBUG STATES:183 - [Control connection] established to /127.0.0.1:9042
+2017-12-05 19:48:25 INFO  DCAwareRoundRobinPolicy:95 - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2017-12-05 19:48:25 INFO  Cluster:1568 - New Cassandra host /127.0.0.1:9042 added
+2017-12-05 19:48:25 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 2
+2017-12-05 19:48:25 DEBUG Connection:167 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:48:25 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:48:25 DEBUG HostConnectionPool:152 - Created connection pool to host /127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-12-05 19:48:25 DEBUG Session:364 - Added connection pool for /127.0.0.1:9042
+2017-12-05 19:48:25 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 3
+2017-12-05 19:48:25 DEBUG Connection:167 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:48:25 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:48:25 DEBUG HostConnectionPool:152 - Created connection pool to host /127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-12-05 19:48:25 DEBUG Session:364 - Added connection pool for /127.0.0.1:9042
+2017-12-05 19:48:36 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:36 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:36 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:36 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:36 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:36 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:44 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:44 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:44 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:44 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:44 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:44 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:46 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:46 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:46 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:46 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:46 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:46 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:55 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:55 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:55 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:55 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:48:55 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:48:55 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:06 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:06 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:06 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:06 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:06 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:06 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:14 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:14 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:14 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:14 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:14 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:14 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:16 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:16 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:16 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:16 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:16 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:16 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:25 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:25 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:25 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:25 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:25 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:25 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:36 DEBUG SystemProperties:48 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2017-12-05 19:49:36 INFO  ClockFactory:52 - Using native clock to generate timestamps.
+2017-12-05 19:49:36 DEBUG Cluster:1416 - Starting new cluster with contact points [/127.0.0.1:9042]
+2017-12-05 19:49:36 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-12-05 19:49:36 DEBUG Connection:167 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:49:36 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:49:36 DEBUG ControlConnection:536 - [Control connection] Refreshing node list and token map
+2017-12-05 19:49:36 DEBUG ControlConnection:275 - [Control connection] Refreshing schema
+2017-12-05 19:49:36 DEBUG STATES:183 - [Control connection] established to /127.0.0.1:9042
+2017-12-05 19:49:36 INFO  DCAwareRoundRobinPolicy:95 - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2017-12-05 19:49:36 INFO  Cluster:1568 - New Cassandra host /127.0.0.1:9042 added
+2017-12-05 19:49:36 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 2
+2017-12-05 19:49:36 DEBUG Connection:167 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:49:36 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:49:36 DEBUG HostConnectionPool:152 - Created connection pool to host /127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-12-05 19:49:36 DEBUG Session:364 - Added connection pool for /127.0.0.1:9042
+2017-12-05 19:49:36 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 3
+2017-12-05 19:49:36 DEBUG Connection:167 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] Connection established, initializing transport
+2017-12-05 19:49:36 DEBUG STATES:318 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] Transport initialized, connection ready
+2017-12-05 19:49:36 DEBUG HostConnectionPool:152 - Created connection pool to host /127.0.0.1:9042 (1 connections needed, 1 successfully opened)
+2017-12-05 19:49:36 DEBUG Session:364 - Added connection pool for /127.0.0.1:9042
+2017-12-05 19:49:36 DEBUG Connection:518 - Connection[/127.0.0.1:9042-3, inFlight=1, closed=false] Setting keyspace hospitalops
+2017-12-05 19:49:36 DEBUG Connection:526 - Connection[/127.0.0.1:9042-3, inFlight=1, closed=false] Keyspace set to hospitalops
+2017-12-05 19:49:36 DEBUG Connection:690 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=true] closing connection
+2017-12-05 19:49:36 DEBUG STATES:96 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-3, inFlight=0, closed=true] closed, remaining = 2
+2017-12-05 19:49:36 DEBUG Cluster:1673 - Shutting down
+2017-12-05 19:49:36 DEBUG Connection:690 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=true] closing connection
+2017-12-05 19:49:36 DEBUG STATES:96 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-1, inFlight=0, closed=true] closed, remaining = 1
+2017-12-05 19:49:36 DEBUG Connection:690 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=true] closing connection
+2017-12-05 19:49:36 DEBUG STATES:96 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-2, inFlight=0, closed=true] closed, remaining = 0
+2017-12-05 19:49:36 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:36 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:36 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:36 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:36 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:36 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:38 DEBUG PoolThreadCache:81 - Freed 4 thread-local buffer(s) from thread: cluster8-nio-worker-2
+2017-12-05 19:49:38 DEBUG PoolThreadCache:81 - Freed 9 thread-local buffer(s) from thread: cluster8-nio-worker-4
+2017-12-05 19:49:38 DEBUG PoolThreadCache:81 - Freed 27 thread-local buffer(s) from thread: cluster8-nio-worker-0
+2017-12-05 19:49:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:44 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:44 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:44 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:44 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:44 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:44 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:46 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:46 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:46 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:46 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:46 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:46 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:55 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:55 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:55 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:55 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:49:55 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:49:55 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:06 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:06 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:06 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:06 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:06 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:06 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:14 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:14 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:14 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:14 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:14 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:14 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:16 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:16 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:16 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:16 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:16 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:16 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:25 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:25 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:25 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:25 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:25 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:25 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:36 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:36 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:36 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:36 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:36 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:36 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:44 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:44 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:44 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:44 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:44 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:44 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:46 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:46 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:46 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:46 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-05 19:50:46 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:46 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-05 19:50:51 DEBUG Connection:1108 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] connection error
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:221)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:276)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-05 19:50:51 DEBUG Connection:1108 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] connection error
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:221)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:276)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-05 19:50:51 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] because: [/127.0.0.1:9042] Unexpected exception triggered (java.io.IOException: Connection reset by peer)
+2017-12-05 19:50:51 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] because: [/127.0.0.1:9042] Unexpected exception triggered (java.io.IOException: Connection reset by peer)
+2017-12-05 19:50:51 DEBUG Connection:1108 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] connection error
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:221)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:276)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-05 19:50:51 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] because: [/127.0.0.1:9042] Unexpected exception triggered (java.io.IOException: Connection reset by peer)
+2017-12-05 19:50:51 DEBUG Connection:1108 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] connection error
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:221)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:276)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-05 19:50:51 DEBUG Connection:1108 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] connection error
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:221)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:276)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-05 19:50:51 DEBUG Connection:1108 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] connection error
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:221)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:276)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-05 19:50:51 DEBUG Connection:1108 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] connection error
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:221)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:276)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-05 19:50:51 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] because: [/127.0.0.1:9042] Unexpected exception triggered (java.io.IOException: Connection reset by peer)
+2017-12-05 19:50:51 DEBUG Connection:1108 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] connection error
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:221)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:276)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-05 19:50:51 DEBUG Connection:1108 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] connection error
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:221)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:276)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-05 19:50:51 DEBUG Connection:1108 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] connection error
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:221)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:276)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-05 19:50:51 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] because: [/127.0.0.1:9042] Unexpected exception triggered (java.io.IOException: Connection reset by peer)
+2017-12-05 19:50:51 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] because: [/127.0.0.1:9042] Unexpected exception triggered (java.io.IOException: Connection reset by peer)
+2017-12-05 19:50:51 DEBUG STATES:125 - [/127.0.0.1:9042] preventing new connections for the next 1000 ms
+2017-12-05 19:50:51 DEBUG STATES:125 - [/127.0.0.1:9042] preventing new connections for the next 1000 ms
+2017-12-05 19:50:51 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] failed, remaining = 2
+2017-12-05 19:50:51 DEBUG STATES:125 - [/127.0.0.1:9042] preventing new connections for the next 1000 ms
+2017-12-05 19:50:51 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] because: [/127.0.0.1:9042] Unexpected exception triggered (java.io.IOException: Connection reset by peer)
+2017-12-05 19:50:51 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] because: [/127.0.0.1:9042] Unexpected exception triggered (java.io.IOException: Connection reset by peer)
+2017-12-05 19:50:51 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] because: [/127.0.0.1:9042] Unexpected exception triggered (java.io.IOException: Connection reset by peer)
+2017-12-05 19:50:51 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] failed, remaining = 1
+2017-12-05 19:50:51 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] failed, remaining = 1
+2017-12-05 19:50:51 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] failed, remaining = 2
+2017-12-05 19:50:51 DEBUG Connection:690 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:51 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] failed, remaining = 2
+2017-12-05 19:50:51 DEBUG STATES:125 - [/127.0.0.1:9042] preventing new connections for the next 1000 ms
+2017-12-05 19:50:51 DEBUG STATES:125 - [/127.0.0.1:9042] preventing new connections for the next 1000 ms
+2017-12-05 19:50:51 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] because: [/127.0.0.1:9042] Unexpected exception triggered (java.io.IOException: Connection reset by peer)
+2017-12-05 19:50:51 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] failed, remaining = 1
+2017-12-05 19:50:51 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] failed, remaining = 2
+2017-12-05 19:50:51 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] failed, remaining = 1
+2017-12-05 19:50:51 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] failed, remaining = 2
+2017-12-05 19:50:51 DEBUG Connection:690 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:51 DEBUG Cluster:2400 - Received event EVENT DOWN /127.0.0.1:9042, scheduling delivery
+2017-12-05 19:50:51 DEBUG Cluster:2400 - Received event EVENT DOWN /127.0.0.1:9042, scheduling delivery
+2017-12-05 19:50:51 DEBUG Cluster:2400 - Received event EVENT DOWN /127.0.0.1:9042, scheduling delivery
+2017-12-05 19:50:51 DEBUG Cluster:2400 - Received event EVENT DOWN /127.0.0.1:9042, scheduling delivery
+2017-12-05 19:50:51 DEBUG Cluster:2400 - Received event EVENT DOWN /127.0.0.1:9042, scheduling delivery
+2017-12-05 19:50:51 DEBUG Connection:690 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:51 DEBUG Connection:690 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:51 DEBUG Connection:690 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:51 DEBUG Connection:690 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:51 DEBUG Connection:690 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:51 DEBUG Connection:690 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:51 DEBUG Connection:690 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:51 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] failed, remaining = 1
+2017-12-05 19:50:51 DEBUG Connection:690 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:51 DEBUG STATES:2422 - [/127.0.0.1:9042] received event DOWN
+2017-12-05 19:50:51 DEBUG STATES:2422 - [/127.0.0.1:9042] received event DOWN
+2017-12-05 19:50:51 DEBUG STATES:2422 - [/127.0.0.1:9042] received event DOWN
+2017-12-05 19:50:51 DEBUG STATES:2422 - [/127.0.0.1:9042] received event DOWN
+2017-12-05 19:50:51 DEBUG STATES:2422 - [/127.0.0.1:9042] received event DOWN
+2017-12-05 19:50:51 DEBUG Connection:1108 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] connection error
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:221)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:276)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-05 19:50:51 DEBUG Connection:1108 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] connection error
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:221)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:276)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-05 19:50:51 DEBUG Connection:1108 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] connection error
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:221)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:276)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-05 19:50:51 DEBUG Connection:1108 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] connection error
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:221)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:276)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-05 19:50:51 DEBUG Connection:1108 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] connection error
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:221)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:276)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-05 19:50:51 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] because: [/127.0.0.1:9042] Unexpected exception triggered (java.io.IOException: Connection reset by peer)
+2017-12-05 19:50:51 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] because: [/127.0.0.1:9042] Unexpected exception triggered (java.io.IOException: Connection reset by peer)
+2017-12-05 19:50:51 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] because: [/127.0.0.1:9042] Unexpected exception triggered (java.io.IOException: Connection reset by peer)
+2017-12-05 19:50:51 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] because: [/127.0.0.1:9042] Unexpected exception triggered (java.io.IOException: Connection reset by peer)
+2017-12-05 19:50:51 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] failed, remaining = 0
+2017-12-05 19:50:51 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] failed, remaining = 0
+2017-12-05 19:50:51 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] failed, remaining = 0
+2017-12-05 19:50:51 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] because: [/127.0.0.1:9042] Unexpected exception triggered (java.io.IOException: Connection reset by peer)
+2017-12-05 19:50:51 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] failed, remaining = 0
+2017-12-05 19:50:51 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] failed, remaining = 0
+2017-12-05 19:50:51 DEBUG Connection:690 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:51 DEBUG STATES:1897 - [/127.0.0.1:9042] marking host DOWN
+2017-12-05 19:50:51 DEBUG ControlConnection:793 - [Control connection] /127.0.0.1:9042 is down/removed and it was the control host, triggering reconnect
+2017-12-05 19:50:51 DEBUG STATES:1897 - [/127.0.0.1:9042] marking host DOWN
+2017-12-05 19:50:51 DEBUG Connection:690 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:51 DEBUG STATES:1897 - [/127.0.0.1:9042] marking host DOWN
+2017-12-05 19:50:51 DEBUG Connection:690 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:51 DEBUG STATES:1897 - [/127.0.0.1:9042] marking host DOWN
+2017-12-05 19:50:51 DEBUG STATES:1897 - [/127.0.0.1:9042] marking host DOWN
+2017-12-05 19:50:51 DEBUG Connection:690 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:51 DEBUG Connection:690 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:51 DEBUG ControlConnection:793 - [Control connection] /127.0.0.1:9042 is down/removed and it was the control host, triggering reconnect
+2017-12-05 19:50:51 DEBUG ControlConnection:793 - [Control connection] /127.0.0.1:9042 is down/removed and it was the control host, triggering reconnect
+2017-12-05 19:50:51 DEBUG ControlConnection:793 - [Control connection] /127.0.0.1:9042 is down/removed and it was the control host, triggering reconnect
+2017-12-05 19:50:51 DEBUG ControlConnection:793 - [Control connection] /127.0.0.1:9042 is down/removed and it was the control host, triggering reconnect
+2017-12-05 19:50:51 DEBUG AbstractReconnectionHandler:101 - First reconnection scheduled in 0ms
+2017-12-05 19:50:51 DEBUG AbstractReconnectionHandler:101 - First reconnection scheduled in 0ms
+2017-12-05 19:50:51 DEBUG AbstractReconnectionHandler:101 - First reconnection scheduled in 0ms
+2017-12-05 19:50:51 DEBUG AbstractReconnectionHandler:101 - First reconnection scheduled in 0ms
+2017-12-05 19:50:51 DEBUG STATES:113 - [Control connection] starting reconnection attempt
+2017-12-05 19:50:51 DEBUG AbstractReconnectionHandler:101 - First reconnection scheduled in 0ms
+2017-12-05 19:50:51 DEBUG STATES:113 - [Control connection] starting reconnection attempt
+2017-12-05 19:50:51 ERROR ControlConnection:153 - [Control connection] Cannot connect to any host, scheduling retry in 1000 milliseconds
+2017-12-05 19:50:51 DEBUG STATES:196 - [Control connection] next reconnection attempt in 1000 ms
+2017-12-05 19:50:51 DEBUG AbstractReconnectionHandler:101 - First reconnection scheduled in 1000ms
+2017-12-05 19:50:51 DEBUG STATES:113 - [/127.0.0.1:9042] starting reconnection attempt
+2017-12-05 19:50:51 DEBUG STATES:113 - [Control connection] starting reconnection attempt
+2017-12-05 19:50:51 DEBUG STATES:113 - [Control connection] starting reconnection attempt
+2017-12-05 19:50:51 ERROR ControlConnection:153 - [Control connection] Cannot connect to any host, scheduling retry in 1000 milliseconds
+2017-12-05 19:50:51 ERROR ControlConnection:153 - [Control connection] Cannot connect to any host, scheduling retry in 1000 milliseconds
+2017-12-05 19:50:51 DEBUG STATES:196 - [Control connection] next reconnection attempt in 1000 ms
+2017-12-05 19:50:51 DEBUG STATES:113 - [Control connection] starting reconnection attempt
+2017-12-05 19:50:51 ERROR ControlConnection:153 - [Control connection] Cannot connect to any host, scheduling retry in 1000 milliseconds
+2017-12-05 19:50:51 DEBUG STATES:196 - [Control connection] next reconnection attempt in 1000 ms
+2017-12-05 19:50:51 DEBUG AbstractReconnectionHandler:101 - First reconnection scheduled in 1000ms
+2017-12-05 19:50:51 DEBUG STATES:196 - [Control connection] next reconnection attempt in 1000 ms
+2017-12-05 19:50:51 DEBUG AbstractReconnectionHandler:101 - First reconnection scheduled in 1000ms
+2017-12-05 19:50:51 DEBUG AbstractReconnectionHandler:101 - First reconnection scheduled in 1000ms
+2017-12-05 19:50:51 DEBUG STATES:113 - [/127.0.0.1:9042] starting reconnection attempt
+2017-12-05 19:50:51 DEBUG STATES:113 - [/127.0.0.1:9042] starting reconnection attempt
+2017-12-05 19:50:51 DEBUG STATES:113 - [/127.0.0.1:9042] starting reconnection attempt
+2017-12-05 19:50:51 DEBUG AbstractReconnectionHandler:101 - First reconnection scheduled in 1000ms
+2017-12-05 19:50:51 ERROR ControlConnection:153 - [Control connection] Cannot connect to any host, scheduling retry in 1000 milliseconds
+2017-12-05 19:50:51 DEBUG STATES:113 - [/127.0.0.1:9042] starting reconnection attempt
+2017-12-05 19:50:51 DEBUG STATES:196 - [Control connection] next reconnection attempt in 1000 ms
+2017-12-05 19:50:52 DEBUG Cluster:1893 - Aborting onDown because a reconnection is running on DOWN host /127.0.0.1:9042
+2017-12-05 19:50:52 DEBUG Cluster:1893 - Aborting onDown because a reconnection is running on DOWN host /127.0.0.1:9042
+2017-12-05 19:50:52 DEBUG Cluster:1893 - Aborting onDown because a reconnection is running on DOWN host /127.0.0.1:9042
+2017-12-05 19:50:52 DEBUG Cluster:1893 - Aborting onDown because a reconnection is running on DOWN host /127.0.0.1:9042
+2017-12-05 19:50:52 DEBUG Cluster:1893 - Aborting onDown because a reconnection is running on DOWN host /127.0.0.1:9042
+2017-12-05 19:50:52 ERROR ControlConnection:153 - [Control connection] Cannot connect to any host, scheduling retry in 2000 milliseconds
+2017-12-05 19:50:52 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-12-05 19:50:52 DEBUG STATES:196 - [Control connection] next reconnection attempt in 2000 ms
+2017-12-05 19:50:52 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-12-05 19:50:52 ERROR ControlConnection:153 - [Control connection] Cannot connect to any host, scheduling retry in 2000 milliseconds
+2017-12-05 19:50:52 ERROR ControlConnection:153 - [Control connection] Cannot connect to any host, scheduling retry in 2000 milliseconds
+2017-12-05 19:50:52 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-12-05 19:50:52 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-12-05 19:50:52 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-12-05 19:50:52 ERROR ControlConnection:153 - [Control connection] Cannot connect to any host, scheduling retry in 2000 milliseconds
+2017-12-05 19:50:52 ERROR ControlConnection:153 - [Control connection] Cannot connect to any host, scheduling retry in 2000 milliseconds
+2017-12-05 19:50:52 DEBUG STATES:196 - [Control connection] next reconnection attempt in 2000 ms
+2017-12-05 19:50:52 DEBUG STATES:196 - [Control connection] next reconnection attempt in 2000 ms
+2017-12-05 19:50:52 DEBUG STATES:196 - [Control connection] next reconnection attempt in 2000 ms
+2017-12-05 19:50:52 DEBUG STATES:196 - [Control connection] next reconnection attempt in 2000 ms
+2017-12-05 19:50:52 DEBUG Connection:164 - Connection[/127.0.0.1:9042-4, inFlight=0, closed=false] Error connecting to /127.0.0.1:9042 (Connection refused: /127.0.0.1:9042)
+2017-12-05 19:50:52 DEBUG Connection:164 - Connection[/127.0.0.1:9042-4, inFlight=0, closed=false] Error connecting to /127.0.0.1:9042 (Connection refused: /127.0.0.1:9042)
+2017-12-05 19:50:52 DEBUG Connection:164 - Connection[/127.0.0.1:9042-4, inFlight=0, closed=false] Error connecting to /127.0.0.1:9042 (Connection refused: /127.0.0.1:9042)
+2017-12-05 19:50:52 DEBUG Connection:164 - Connection[/127.0.0.1:9042-4, inFlight=0, closed=false] Error connecting to /127.0.0.1:9042 (Connection refused: /127.0.0.1:9042)
+2017-12-05 19:50:52 DEBUG Connection:164 - Connection[/127.0.0.1:9042-4, inFlight=0, closed=false] Error connecting to /127.0.0.1:9042 (Connection refused: /127.0.0.1:9042)
+2017-12-05 19:50:52 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-4, inFlight=0, closed=false] because: [/127.0.0.1:9042] Cannot connect
+2017-12-05 19:50:52 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-4, inFlight=0, closed=false] failed, remaining = 0
+2017-12-05 19:50:52 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-4, inFlight=0, closed=false] because: [/127.0.0.1:9042] Cannot connect
+2017-12-05 19:50:52 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-4, inFlight=0, closed=false] because: [/127.0.0.1:9042] Cannot connect
+2017-12-05 19:50:52 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-4, inFlight=0, closed=false] failed, remaining = 0
+2017-12-05 19:50:52 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-4, inFlight=0, closed=false] because: [/127.0.0.1:9042] Cannot connect
+2017-12-05 19:50:52 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-4, inFlight=0, closed=false] failed, remaining = 0
+2017-12-05 19:50:52 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-4, inFlight=0, closed=false] because: [/127.0.0.1:9042] Cannot connect
+2017-12-05 19:50:52 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-4, inFlight=0, closed=false] failed, remaining = 0
+2017-12-05 19:50:52 DEBUG Connection:690 - Connection[/127.0.0.1:9042-4, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:52 DEBUG Cluster:1893 - Aborting onDown because a reconnection is running on DOWN host /127.0.0.1:9042
+2017-12-05 19:50:52 DEBUG Connection:690 - Connection[/127.0.0.1:9042-4, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:52 DEBUG Cluster:1893 - Aborting onDown because a reconnection is running on DOWN host /127.0.0.1:9042
+2017-12-05 19:50:52 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-4, inFlight=0, closed=false] failed, remaining = 0
+2017-12-05 19:50:52 DEBUG Connection:690 - Connection[/127.0.0.1:9042-4, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:52 DEBUG Cluster:1893 - Aborting onDown because a reconnection is running on DOWN host /127.0.0.1:9042
+2017-12-05 19:50:52 DEBUG Connection:690 - Connection[/127.0.0.1:9042-4, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:52 DEBUG Cluster:1964 - Failed reconnection to /127.0.0.1:9042 ([/127.0.0.1:9042] Cannot connect), scheduling retry in 2000 milliseconds
+2017-12-05 19:50:52 DEBUG STATES:196 - [/127.0.0.1:9042] next reconnection attempt in 2000 ms
+2017-12-05 19:50:52 DEBUG Cluster:1964 - Failed reconnection to /127.0.0.1:9042 ([/127.0.0.1:9042] Cannot connect), scheduling retry in 2000 milliseconds
+2017-12-05 19:50:52 DEBUG STATES:196 - [/127.0.0.1:9042] next reconnection attempt in 2000 ms
+2017-12-05 19:50:52 DEBUG Cluster:1893 - Aborting onDown because a reconnection is running on DOWN host /127.0.0.1:9042
+2017-12-05 19:50:52 DEBUG Connection:690 - Connection[/127.0.0.1:9042-4, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:52 DEBUG Cluster:1893 - Aborting onDown because a reconnection is running on DOWN host /127.0.0.1:9042
+2017-12-05 19:50:52 DEBUG Cluster:1964 - Failed reconnection to /127.0.0.1:9042 ([/127.0.0.1:9042] Cannot connect), scheduling retry in 2000 milliseconds
+2017-12-05 19:50:52 DEBUG STATES:196 - [/127.0.0.1:9042] next reconnection attempt in 2000 ms
+2017-12-05 19:50:52 DEBUG Cluster:1964 - Failed reconnection to /127.0.0.1:9042 ([/127.0.0.1:9042] Cannot connect), scheduling retry in 2000 milliseconds
+2017-12-05 19:50:52 DEBUG STATES:196 - [/127.0.0.1:9042] next reconnection attempt in 2000 ms
+2017-12-05 19:50:52 DEBUG Cluster:1964 - Failed reconnection to /127.0.0.1:9042 ([/127.0.0.1:9042] Cannot connect), scheduling retry in 2000 milliseconds
+2017-12-05 19:50:52 DEBUG STATES:196 - [/127.0.0.1:9042] next reconnection attempt in 2000 ms
+2017-12-05 19:50:54 ERROR ControlConnection:153 - [Control connection] Cannot connect to any host, scheduling retry in 4000 milliseconds
+2017-12-05 19:50:54 DEBUG STATES:196 - [Control connection] next reconnection attempt in 4000 ms
+2017-12-05 19:50:54 ERROR ControlConnection:153 - [Control connection] Cannot connect to any host, scheduling retry in 4000 milliseconds
+2017-12-05 19:50:54 DEBUG STATES:196 - [Control connection] next reconnection attempt in 4000 ms
+2017-12-05 19:50:54 ERROR ControlConnection:153 - [Control connection] Cannot connect to any host, scheduling retry in 4000 milliseconds
+2017-12-05 19:50:54 DEBUG STATES:196 - [Control connection] next reconnection attempt in 4000 ms
+2017-12-05 19:50:54 ERROR ControlConnection:153 - [Control connection] Cannot connect to any host, scheduling retry in 4000 milliseconds
+2017-12-05 19:50:54 ERROR ControlConnection:153 - [Control connection] Cannot connect to any host, scheduling retry in 4000 milliseconds
+2017-12-05 19:50:54 DEBUG STATES:196 - [Control connection] next reconnection attempt in 4000 ms
+2017-12-05 19:50:54 DEBUG STATES:196 - [Control connection] next reconnection attempt in 4000 ms
+2017-12-05 19:50:54 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-12-05 19:50:54 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-12-05 19:50:54 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-12-05 19:50:54 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-12-05 19:50:54 DEBUG STATES:88 - [/127.0.0.1:9042] preparing to open 1 new connections, total = 1
+2017-12-05 19:50:54 DEBUG Connection:164 - Connection[/127.0.0.1:9042-5, inFlight=0, closed=false] Error connecting to /127.0.0.1:9042 (Connection refused: /127.0.0.1:9042)
+2017-12-05 19:50:54 DEBUG Connection:164 - Connection[/127.0.0.1:9042-5, inFlight=0, closed=false] Error connecting to /127.0.0.1:9042 (Connection refused: /127.0.0.1:9042)
+2017-12-05 19:50:54 DEBUG Connection:164 - Connection[/127.0.0.1:9042-5, inFlight=0, closed=false] Error connecting to /127.0.0.1:9042 (Connection refused: /127.0.0.1:9042)
+2017-12-05 19:50:54 DEBUG Connection:164 - Connection[/127.0.0.1:9042-5, inFlight=0, closed=false] Error connecting to /127.0.0.1:9042 (Connection refused: /127.0.0.1:9042)
+2017-12-05 19:50:54 DEBUG Connection:164 - Connection[/127.0.0.1:9042-5, inFlight=0, closed=false] Error connecting to /127.0.0.1:9042 (Connection refused: /127.0.0.1:9042)
+2017-12-05 19:50:54 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-5, inFlight=0, closed=false] because: [/127.0.0.1:9042] Cannot connect
+2017-12-05 19:50:54 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-5, inFlight=0, closed=false] failed, remaining = 0
+2017-12-05 19:50:54 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-5, inFlight=0, closed=false] because: [/127.0.0.1:9042] Cannot connect
+2017-12-05 19:50:54 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-5, inFlight=0, closed=false] failed, remaining = 0
+2017-12-05 19:50:54 DEBUG Cluster:1893 - Aborting onDown because a reconnection is running on DOWN host /127.0.0.1:9042
+2017-12-05 19:50:54 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-5, inFlight=0, closed=false] because: [/127.0.0.1:9042] Cannot connect
+2017-12-05 19:50:54 DEBUG Cluster:1893 - Aborting onDown because a reconnection is running on DOWN host /127.0.0.1:9042
+2017-12-05 19:50:54 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-5, inFlight=0, closed=false] because: [/127.0.0.1:9042] Cannot connect
+2017-12-05 19:50:54 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-5, inFlight=0, closed=false] failed, remaining = 0
+2017-12-05 19:50:54 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-5, inFlight=0, closed=false] failed, remaining = 0
+2017-12-05 19:50:54 DEBUG Connection:690 - Connection[/127.0.0.1:9042-5, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:54 DEBUG Connection:690 - Connection[/127.0.0.1:9042-5, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:54 DEBUG STATES:431 - Defuncting Connection[/127.0.0.1:9042-5, inFlight=0, closed=false] because: [/127.0.0.1:9042] Cannot connect
+2017-12-05 19:50:54 DEBUG Cluster:1964 - Failed reconnection to /127.0.0.1:9042 ([/127.0.0.1:9042] Cannot connect), scheduling retry in 4000 milliseconds
+2017-12-05 19:50:54 DEBUG STATES:196 - [/127.0.0.1:9042] next reconnection attempt in 4000 ms
+2017-12-05 19:50:54 DEBUG Cluster:1893 - Aborting onDown because a reconnection is running on DOWN host /127.0.0.1:9042
+2017-12-05 19:50:54 DEBUG Connection:690 - Connection[/127.0.0.1:9042-5, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:54 DEBUG Cluster:1893 - Aborting onDown because a reconnection is running on DOWN host /127.0.0.1:9042
+2017-12-05 19:50:54 DEBUG Connection:690 - Connection[/127.0.0.1:9042-5, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:54 DEBUG Cluster:1964 - Failed reconnection to /127.0.0.1:9042 ([/127.0.0.1:9042] Cannot connect), scheduling retry in 4000 milliseconds
+2017-12-05 19:50:54 DEBUG Cluster:1964 - Failed reconnection to /127.0.0.1:9042 ([/127.0.0.1:9042] Cannot connect), scheduling retry in 4000 milliseconds
+2017-12-05 19:50:54 DEBUG STATES:196 - [/127.0.0.1:9042] next reconnection attempt in 4000 ms
+2017-12-05 19:50:54 DEBUG Cluster:1964 - Failed reconnection to /127.0.0.1:9042 ([/127.0.0.1:9042] Cannot connect), scheduling retry in 4000 milliseconds
+2017-12-05 19:50:54 DEBUG STATES:196 - [/127.0.0.1:9042] next reconnection attempt in 4000 ms
+2017-12-05 19:50:54 DEBUG STATES:108 - [/127.0.0.1:9042] Connection[/127.0.0.1:9042-5, inFlight=0, closed=false] failed, remaining = 0
+2017-12-05 19:50:54 DEBUG STATES:196 - [/127.0.0.1:9042] next reconnection attempt in 4000 ms
+2017-12-05 19:50:54 DEBUG Connection:690 - Connection[/127.0.0.1:9042-5, inFlight=0, closed=true] closing connection
+2017-12-05 19:50:54 DEBUG Cluster:1893 - Aborting onDown because a reconnection is running on DOWN host /127.0.0.1:9042
+2017-12-05 19:50:54 DEBUG Cluster:1964 - Failed reconnection to /127.0.0.1:9042 ([/127.0.0.1:9042] Cannot connect), scheduling retry in 4000 milliseconds
+2017-12-05 19:50:54 DEBUG STATES:196 - [/127.0.0.1:9042] next reconnection attempt in 4000 ms

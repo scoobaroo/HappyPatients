@@ -1,0 +1,1405 @@
+05-Dec-2017 18:59:35.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+05-Dec-2017 18:59:35.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+05-Dec-2017 18:59:35.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+05-Dec-2017 18:59:35.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Dec-2017 18:59:35.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.1
+05-Dec-2017 18:59:35.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+05-Dec-2017 18:59:35.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+05-Dec-2017 18:59:35.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+05-Dec-2017 18:59:35.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Dec-2017 18:59:35.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 18:59:35.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 18:59:35.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/erichan/Downloads/apache-tomcat-8.5.24/conf/logging.properties
+05-Dec-2017 18:59:35.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Dec-2017 18:59:35.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Dec-2017 18:59:35.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Dec-2017 18:59:35.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Dec-2017 18:59:35.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 18:59:35.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 18:59:35.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/erichan/Downloads/apache-tomcat-8.5.24/temp
+05-Dec-2017 18:59:35.513 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/erichan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Dec-2017 18:59:35.612 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 18:59:35.635 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 18:59:35.639 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 18:59:35.640 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 18:59:35.641 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 374 ms
+05-Dec-2017 18:59:35.659 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Dec-2017 18:59:35.659 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+05-Dec-2017 18:59:35.664 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/Users/erichan/Downloads/apache-tomcat-8.5.24/conf/Catalina/localhost/root.xml]
+05-Dec-2017 18:59:37.098 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 18:59:37.758 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/erichan/Downloads/apache-tomcat-8.5.24/conf/Catalina/localhost/root.xml] has finished in [2,094] ms
+05-Dec-2017 18:59:37.759 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/docs]
+05-Dec-2017 18:59:37.767 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/docs] has finished in [8] ms
+05-Dec-2017 18:59:37.768 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/manager]
+05-Dec-2017 18:59:37.786 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/manager] has finished in [19] ms
+05-Dec-2017 18:59:37.787 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/examples]
+05-Dec-2017 18:59:37.996 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/examples] has finished in [210] ms
+05-Dec-2017 18:59:37.996 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 18:59:38.007 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [11] ms
+05-Dec-2017 18:59:38.008 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/host-manager]
+05-Dec-2017 18:59:38.025 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/host-manager] has finished in [17] ms
+05-Dec-2017 18:59:38.028 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 18:59:38.033 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 18:59:38.035 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2393 ms
+05-Dec-2017 18:59:48.031 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 18:59:48.041 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 18:59:48.049 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 18:59:58.595 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 18:59:58.603 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 18:59:58.613 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [10] ms
+05-Dec-2017 19:00:09.224 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:00:09.230 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:00:09.239 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [9] ms
+05-Dec-2017 19:00:19.768 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:00:19.773 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:00:19.781 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:00:30.293 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:00:30.299 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:00:30.307 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:00:40.828 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:00:40.834 INFO [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:00:40.843 INFO [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [9] ms
+05-Dec-2017 19:00:51.401 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:00:51.405 INFO [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:00:51.413 INFO [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:01:01.896 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:01:01.902 INFO [localhost-startStop-9] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:01:01.909 INFO [localhost-startStop-9] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:01:12.423 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:01:12.428 INFO [localhost-startStop-10] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:01:12.436 INFO [localhost-startStop-10] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:01:23.026 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:01:23.032 INFO [localhost-startStop-11] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:01:23.044 INFO [localhost-startStop-11] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [12] ms
+05-Dec-2017 19:01:33.641 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:01:33.647 INFO [localhost-startStop-12] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:01:33.656 INFO [localhost-startStop-12] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [9] ms
+05-Dec-2017 19:01:44.251 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:01:44.255 INFO [localhost-startStop-13] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:01:44.263 INFO [localhost-startStop-13] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:01:54.760 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:01:54.764 INFO [localhost-startStop-14] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:01:54.773 INFO [localhost-startStop-14] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:02:05.260 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:02:05.265 INFO [localhost-startStop-15] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:02:05.273 INFO [localhost-startStop-15] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:02:15.765 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:02:15.771 INFO [localhost-startStop-16] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:02:15.779 INFO [localhost-startStop-16] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:02:26.249 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:02:26.254 INFO [localhost-startStop-17] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:02:26.261 INFO [localhost-startStop-17] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:02:36.782 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:02:36.788 INFO [localhost-startStop-18] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:02:36.795 INFO [localhost-startStop-18] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:02:47.280 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:02:47.286 INFO [localhost-startStop-19] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:02:47.294 INFO [localhost-startStop-19] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:02:57.828 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:02:57.833 INFO [localhost-startStop-20] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:02:57.841 INFO [localhost-startStop-20] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:03:08.328 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:03:08.334 INFO [localhost-startStop-21] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:03:08.342 INFO [localhost-startStop-21] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:03:18.881 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:03:18.887 INFO [localhost-startStop-22] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:03:18.894 INFO [localhost-startStop-22] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:03:29.434 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:03:29.440 INFO [localhost-startStop-23] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:03:29.448 INFO [localhost-startStop-23] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:03:39.997 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:03:40.002 INFO [localhost-startStop-24] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:03:40.011 INFO [localhost-startStop-24] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [9] ms
+05-Dec-2017 19:03:50.554 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:03:50.560 INFO [localhost-startStop-25] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:03:50.567 INFO [localhost-startStop-25] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:04:01.113 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:04:01.119 INFO [localhost-startStop-26] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:04:01.126 INFO [localhost-startStop-26] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:04:11.638 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:04:11.644 INFO [localhost-startStop-27] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:04:11.651 INFO [localhost-startStop-27] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:04:22.146 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:04:22.151 INFO [localhost-startStop-28] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:04:22.158 INFO [localhost-startStop-28] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:04:32.679 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:04:32.686 INFO [localhost-startStop-29] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:04:32.693 INFO [localhost-startStop-29] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:04:43.164 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:04:43.169 INFO [localhost-startStop-30] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:04:43.176 INFO [localhost-startStop-30] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:04:53.626 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:04:53.631 INFO [localhost-startStop-31] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:04:53.639 INFO [localhost-startStop-31] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:05:04.135 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:05:04.140 INFO [localhost-startStop-32] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:05:04.147 INFO [localhost-startStop-32] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:05:14.675 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:05:14.681 INFO [localhost-startStop-33] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:05:14.688 INFO [localhost-startStop-33] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:05:25.200 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:05:25.205 INFO [localhost-startStop-34] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:05:25.211 INFO [localhost-startStop-34] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [6] ms
+05-Dec-2017 19:05:35.755 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:05:35.761 INFO [localhost-startStop-35] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:05:35.774 INFO [localhost-startStop-35] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [13] ms
+05-Dec-2017 19:05:46.298 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:05:46.304 INFO [localhost-startStop-36] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:05:46.311 INFO [localhost-startStop-36] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:05:56.843 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:05:56.848 INFO [localhost-startStop-37] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:05:56.855 INFO [localhost-startStop-37] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:06:07.368 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:06:07.373 INFO [localhost-startStop-38] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:06:07.380 INFO [localhost-startStop-38] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [6] ms
+05-Dec-2017 19:06:17.908 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:06:17.913 INFO [localhost-startStop-39] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:06:17.921 INFO [localhost-startStop-39] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:06:28.460 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:06:28.465 INFO [localhost-startStop-40] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:06:28.472 INFO [localhost-startStop-40] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:06:38.953 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:06:38.958 INFO [localhost-startStop-41] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:06:38.964 INFO [localhost-startStop-41] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:06:49.458 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:06:49.463 INFO [localhost-startStop-42] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:06:49.469 INFO [localhost-startStop-42] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [6] ms
+05-Dec-2017 19:06:59.962 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:06:59.967 INFO [localhost-startStop-43] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:06:59.974 INFO [localhost-startStop-43] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:07:10.443 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:07:10.448 INFO [localhost-startStop-44] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:07:10.454 INFO [localhost-startStop-44] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [6] ms
+05-Dec-2017 19:07:21.001 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:07:21.006 INFO [localhost-startStop-45] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:07:21.013 INFO [localhost-startStop-45] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:07:31.487 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:07:31.491 INFO [localhost-startStop-46] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:07:31.498 INFO [localhost-startStop-46] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:07:41.982 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:07:41.987 INFO [localhost-startStop-47] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:07:41.993 INFO [localhost-startStop-47] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [6] ms
+05-Dec-2017 19:07:52.454 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:07:52.459 INFO [localhost-startStop-48] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:07:52.466 INFO [localhost-startStop-48] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:08:02.934 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:08:02.939 INFO [localhost-startStop-49] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:08:02.946 INFO [localhost-startStop-49] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:08:13.422 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:08:13.426 INFO [localhost-startStop-50] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:08:13.436 INFO [localhost-startStop-50] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [10] ms
+05-Dec-2017 19:08:24.064 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:08:24.069 INFO [localhost-startStop-51] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:08:24.076 INFO [localhost-startStop-51] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:08:34.622 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:08:34.627 INFO [localhost-startStop-52] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:08:34.633 INFO [localhost-startStop-52] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [6] ms
+05-Dec-2017 19:08:45.086 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:08:45.092 INFO [localhost-startStop-53] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:08:45.098 INFO [localhost-startStop-53] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [6] ms
+05-Dec-2017 19:08:55.646 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:08:55.651 INFO [localhost-startStop-54] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:08:55.658 INFO [localhost-startStop-54] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:08:59.469 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:08:59.474 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:08:59.526 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Dec-2017 19:08:59.545 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:08:59.548 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:08:59.549 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:08:59.549 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:11:33.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+05-Dec-2017 19:11:33.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+05-Dec-2017 19:11:33.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+05-Dec-2017 19:11:33.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Dec-2017 19:11:33.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.1
+05-Dec-2017 19:11:33.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+05-Dec-2017 19:11:33.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+05-Dec-2017 19:11:33.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+05-Dec-2017 19:11:33.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Dec-2017 19:11:33.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:11:33.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:11:33.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/erichan/Downloads/apache-tomcat-8.5.24/conf/logging.properties
+05-Dec-2017 19:11:33.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Dec-2017 19:11:33.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Dec-2017 19:11:33.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Dec-2017 19:11:33.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Dec-2017 19:11:33.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:11:33.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:11:33.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/erichan/Downloads/apache-tomcat-8.5.24/temp
+05-Dec-2017 19:11:33.996 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/erichan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Dec-2017 19:11:34.078 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:11:34.099 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 19:11:34.106 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:11:34.107 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 19:11:34.107 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 358 ms
+05-Dec-2017 19:11:34.126 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Dec-2017 19:11:34.126 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+05-Dec-2017 19:11:34.131 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/Users/erichan/Downloads/apache-tomcat-8.5.24/conf/Catalina/localhost/root.xml]
+05-Dec-2017 19:11:35.655 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 19:11:36.351 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/erichan/Downloads/apache-tomcat-8.5.24/conf/Catalina/localhost/root.xml] has finished in [2,220] ms
+05-Dec-2017 19:11:36.376 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/docs]
+05-Dec-2017 19:11:36.384 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/docs] has finished in [8] ms
+05-Dec-2017 19:11:36.384 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/manager]
+05-Dec-2017 19:11:36.406 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/manager] has finished in [22] ms
+05-Dec-2017 19:11:36.406 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/examples]
+05-Dec-2017 19:11:36.560 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/examples] has finished in [154] ms
+05-Dec-2017 19:11:36.560 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:11:36.567 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:11:36.568 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/host-manager]
+05-Dec-2017 19:11:36.579 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/host-manager] has finished in [11] ms
+05-Dec-2017 19:11:36.581 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:11:36.586 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:11:36.587 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2479 ms
+05-Dec-2017 19:11:46.586 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:11:46.595 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:11:46.603 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:11:57.147 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:11:57.154 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:11:57.163 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [10] ms
+05-Dec-2017 19:12:07.730 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:12:07.735 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:12:07.745 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [9] ms
+05-Dec-2017 19:12:18.238 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:12:18.244 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:12:18.252 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:12:28.715 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:12:28.719 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:12:28.726 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:12:39.292 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:12:39.298 INFO [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:12:39.308 INFO [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [10] ms
+05-Dec-2017 19:12:49.789 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:12:49.795 INFO [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:12:49.802 INFO [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:13:00.317 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:13:00.322 INFO [localhost-startStop-9] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:13:00.330 INFO [localhost-startStop-9] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:13:10.851 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:13:10.856 INFO [localhost-startStop-10] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:13:10.864 INFO [localhost-startStop-10] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:13:21.361 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:13:21.367 INFO [localhost-startStop-11] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:13:21.378 INFO [localhost-startStop-11] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [11] ms
+05-Dec-2017 19:13:31.912 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:13:31.917 INFO [localhost-startStop-12] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:13:31.926 INFO [localhost-startStop-12] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:13:42.477 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:13:42.482 INFO [localhost-startStop-13] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:13:42.490 INFO [localhost-startStop-13] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:13:53.004 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:13:53.009 INFO [localhost-startStop-14] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:13:53.017 INFO [localhost-startStop-14] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:14:03.468 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:14:03.474 INFO [localhost-startStop-15] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:14:03.481 INFO [localhost-startStop-15] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:14:13.949 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:14:13.953 INFO [localhost-startStop-16] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:14:13.963 INFO [localhost-startStop-16] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [10] ms
+05-Dec-2017 19:14:24.492 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:14:24.498 INFO [localhost-startStop-17] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:14:24.505 INFO [localhost-startStop-17] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:14:34.981 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:14:34.986 INFO [localhost-startStop-18] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:14:34.993 INFO [localhost-startStop-18] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:14:45.503 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:14:45.509 INFO [localhost-startStop-19] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:14:45.517 INFO [localhost-startStop-19] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:14:55.969 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:14:55.973 INFO [localhost-startStop-20] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:14:55.979 INFO [localhost-startStop-20] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [6] ms
+05-Dec-2017 19:15:06.486 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:15:06.491 INFO [localhost-startStop-21] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:15:06.498 INFO [localhost-startStop-21] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:15:16.942 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:15:16.947 INFO [localhost-startStop-22] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:15:16.955 INFO [localhost-startStop-22] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:15:27.428 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:15:27.434 INFO [localhost-startStop-23] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:15:27.441 INFO [localhost-startStop-23] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:15:37.933 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:15:37.938 INFO [localhost-startStop-24] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:15:37.944 INFO [localhost-startStop-24] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [6] ms
+05-Dec-2017 19:15:45.439 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Dec-2017 19:15:45.440 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:15:45.493 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:15:45.544 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Dec-2017 19:15:45.559 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:15:45.562 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:15:45.562 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:15:45.563 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:16:45.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+05-Dec-2017 19:16:45.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+05-Dec-2017 19:16:45.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+05-Dec-2017 19:16:45.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Dec-2017 19:16:45.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.1
+05-Dec-2017 19:16:45.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+05-Dec-2017 19:16:45.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+05-Dec-2017 19:16:45.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+05-Dec-2017 19:16:45.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Dec-2017 19:16:45.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:16:45.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:16:45.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/erichan/Downloads/apache-tomcat-8.5.24/conf/logging.properties
+05-Dec-2017 19:16:45.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Dec-2017 19:16:45.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Dec-2017 19:16:45.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Dec-2017 19:16:45.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Dec-2017 19:16:45.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:16:45.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:16:45.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/erichan/Downloads/apache-tomcat-8.5.24/temp
+05-Dec-2017 19:16:45.644 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/erichan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Dec-2017 19:16:45.746 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:16:45.771 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 19:16:45.777 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:16:45.779 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 19:16:45.779 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 403 ms
+05-Dec-2017 19:16:45.806 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Dec-2017 19:16:45.807 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+05-Dec-2017 19:16:45.813 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/Users/erichan/Downloads/apache-tomcat-8.5.24/conf/Catalina/localhost/root.xml]
+05-Dec-2017 19:16:47.515 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 19:16:48.282 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/erichan/Downloads/apache-tomcat-8.5.24/conf/Catalina/localhost/root.xml] has finished in [2,469] ms
+05-Dec-2017 19:16:48.283 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/docs]
+05-Dec-2017 19:16:48.299 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/docs] has finished in [16] ms
+05-Dec-2017 19:16:48.299 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/manager]
+05-Dec-2017 19:16:48.324 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/manager] has finished in [25] ms
+05-Dec-2017 19:16:48.325 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/examples]
+05-Dec-2017 19:16:48.563 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/examples] has finished in [238] ms
+05-Dec-2017 19:16:48.563 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:16:48.571 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:16:48.571 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/host-manager]
+05-Dec-2017 19:16:48.582 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/host-manager] has finished in [11] ms
+05-Dec-2017 19:16:48.584 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:16:48.589 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:16:48.590 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2810 ms
+05-Dec-2017 19:16:57.205 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:16:57.261 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:16:57.320 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Dec-2017 19:16:57.347 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:16:57.351 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:16:57.352 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:16:57.353 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:18:06.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+05-Dec-2017 19:18:06.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+05-Dec-2017 19:18:06.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+05-Dec-2017 19:18:06.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Dec-2017 19:18:06.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.1
+05-Dec-2017 19:18:06.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+05-Dec-2017 19:18:06.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+05-Dec-2017 19:18:06.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+05-Dec-2017 19:18:06.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Dec-2017 19:18:06.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:18:06.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:18:06.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/erichan/Downloads/apache-tomcat-8.5.24/conf/logging.properties
+05-Dec-2017 19:18:06.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Dec-2017 19:18:06.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Dec-2017 19:18:06.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Dec-2017 19:18:06.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Dec-2017 19:18:06.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:18:06.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:18:06.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/erichan/Downloads/apache-tomcat-8.5.24/temp
+05-Dec-2017 19:18:06.372 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/erichan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Dec-2017 19:18:06.477 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:18:06.499 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 19:18:06.505 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:18:06.507 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 19:18:06.507 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 398 ms
+05-Dec-2017 19:18:06.539 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Dec-2017 19:18:06.539 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+05-Dec-2017 19:18:06.550 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/Users/erichan/Downloads/apache-tomcat-8.5.24/conf/Catalina/localhost/root.xml]
+05-Dec-2017 19:18:08.206 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 19:18:08.888 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/erichan/Downloads/apache-tomcat-8.5.24/conf/Catalina/localhost/root.xml] has finished in [2,338] ms
+05-Dec-2017 19:18:08.889 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/docs]
+05-Dec-2017 19:18:08.898 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/docs] has finished in [9] ms
+05-Dec-2017 19:18:08.898 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/manager]
+05-Dec-2017 19:18:08.915 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/manager] has finished in [16] ms
+05-Dec-2017 19:18:08.915 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/examples]
+05-Dec-2017 19:18:09.120 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/examples] has finished in [205] ms
+05-Dec-2017 19:18:09.120 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:18:09.128 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:18:09.128 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/host-manager]
+05-Dec-2017 19:18:09.142 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/host-manager] has finished in [14] ms
+05-Dec-2017 19:18:09.145 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:18:09.152 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:18:09.154 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2646 ms
+05-Dec-2017 19:18:19.146 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:18:19.157 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:18:19.166 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [9] ms
+05-Dec-2017 19:18:24.338 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:18:24.396 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:18:24.451 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Dec-2017 19:18:24.475 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:18:24.480 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:18:24.482 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:18:24.483 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:22:57.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+05-Dec-2017 19:22:57.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+05-Dec-2017 19:22:57.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+05-Dec-2017 19:22:57.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Dec-2017 19:22:57.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.1
+05-Dec-2017 19:22:57.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+05-Dec-2017 19:22:57.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+05-Dec-2017 19:22:57.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+05-Dec-2017 19:22:57.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Dec-2017 19:22:57.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:22:57.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:22:57.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/erichan/Downloads/apache-tomcat-8.5.24/conf/logging.properties
+05-Dec-2017 19:22:57.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Dec-2017 19:22:57.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Dec-2017 19:22:57.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Dec-2017 19:22:57.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Dec-2017 19:22:57.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:22:57.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:22:57.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/erichan/Downloads/apache-tomcat-8.5.24/temp
+05-Dec-2017 19:22:57.948 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/erichan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Dec-2017 19:22:58.050 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:22:58.076 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 19:22:58.082 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:22:58.083 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 19:22:58.083 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 399 ms
+05-Dec-2017 19:22:58.110 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Dec-2017 19:22:58.110 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+05-Dec-2017 19:22:58.122 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/Users/erichan/Downloads/apache-tomcat-8.5.24/conf/Catalina/localhost/root.xml]
+05-Dec-2017 19:22:59.800 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 19:23:00.453 SEVERE [localhost-startStop-1] org.glassfish.jersey.internal.Errors.logErrors Following issues have been detected: 
+WARNING: A resource model has ambiguous (sub-)resource method for HTTP method GET and input mime-types as defined by"@Consumes" and "@Produces" annotations at Java methods public javax.ws.rs.core.Response com.sjsu.cs249.Services.HappyPatientsService.test(java.lang.String) and public javax.ws.rs.core.Response com.sjsu.cs249.Services.HappyPatientsService.retrievePatient(java.util.UUID) at matching regular expression /retrievePatient/([^/]+). These two methods produces and consumes exactly the same mime-types and therefore their invocation as a resource methods will always fail.
+
+05-Dec-2017 19:23:00.461 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/erichan/Downloads/apache-tomcat-8.5.24/conf/Catalina/localhost/root.xml] has finished in [2,339] ms
+05-Dec-2017 19:23:00.484 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/docs]
+05-Dec-2017 19:23:00.493 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/docs] has finished in [8] ms
+05-Dec-2017 19:23:00.493 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/manager]
+05-Dec-2017 19:23:00.508 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/manager] has finished in [15] ms
+05-Dec-2017 19:23:00.508 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/examples]
+05-Dec-2017 19:23:00.694 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/examples] has finished in [186] ms
+05-Dec-2017 19:23:00.695 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:23:00.704 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [9] ms
+05-Dec-2017 19:23:00.704 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/host-manager]
+05-Dec-2017 19:23:00.715 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/host-manager] has finished in [11] ms
+05-Dec-2017 19:23:00.717 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:23:00.723 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:23:00.725 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2641 ms
+05-Dec-2017 19:23:10.717 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:23:10.726 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:23:10.735 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [9] ms
+05-Dec-2017 19:23:17.622 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:23:17.682 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:23:17.733 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Dec-2017 19:23:17.751 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:23:17.755 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:23:17.757 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:23:17.758 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:24:12.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+05-Dec-2017 19:24:12.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+05-Dec-2017 19:24:12.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+05-Dec-2017 19:24:12.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Dec-2017 19:24:12.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.1
+05-Dec-2017 19:24:12.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+05-Dec-2017 19:24:12.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+05-Dec-2017 19:24:12.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+05-Dec-2017 19:24:12.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Dec-2017 19:24:12.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:24:12.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:24:12.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/erichan/Downloads/apache-tomcat-8.5.24/conf/logging.properties
+05-Dec-2017 19:24:12.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Dec-2017 19:24:12.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Dec-2017 19:24:12.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Dec-2017 19:24:12.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Dec-2017 19:24:12.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:24:12.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:24:12.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/erichan/Downloads/apache-tomcat-8.5.24/temp
+05-Dec-2017 19:24:12.849 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/erichan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Dec-2017 19:24:12.963 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:24:12.991 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 19:24:12.998 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:24:12.999 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 19:24:12.999 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 412 ms
+05-Dec-2017 19:24:13.027 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Dec-2017 19:24:13.028 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+05-Dec-2017 19:24:13.040 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/Users/erichan/Downloads/apache-tomcat-8.5.24/conf/Catalina/localhost/root.xml]
+05-Dec-2017 19:24:14.762 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 19:24:15.435 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/erichan/Downloads/apache-tomcat-8.5.24/conf/Catalina/localhost/root.xml] has finished in [2,394] ms
+05-Dec-2017 19:24:15.435 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/docs]
+05-Dec-2017 19:24:15.445 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/docs] has finished in [10] ms
+05-Dec-2017 19:24:15.445 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/manager]
+05-Dec-2017 19:24:15.466 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/manager] has finished in [21] ms
+05-Dec-2017 19:24:15.466 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/examples]
+05-Dec-2017 19:24:15.694 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/examples] has finished in [228] ms
+05-Dec-2017 19:24:15.695 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:24:15.704 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [9] ms
+05-Dec-2017 19:24:15.704 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/host-manager]
+05-Dec-2017 19:24:15.715 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/host-manager] has finished in [11] ms
+05-Dec-2017 19:24:15.717 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:24:15.724 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:24:15.725 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2725 ms
+05-Dec-2017 19:24:25.717 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:24:25.727 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:24:25.738 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [10] ms
+05-Dec-2017 19:24:36.365 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:24:36.372 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:24:36.383 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [11] ms
+05-Dec-2017 19:24:47.003 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:24:47.009 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:24:47.019 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [10] ms
+05-Dec-2017 19:24:57.617 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:24:57.623 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:24:57.631 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [9] ms
+05-Dec-2017 19:25:08.183 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:25:08.189 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:25:08.197 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:25:18.720 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:25:18.729 INFO [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:25:18.739 INFO [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [10] ms
+05-Dec-2017 19:25:29.346 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:25:29.351 INFO [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:25:29.359 INFO [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:25:39.867 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:25:39.874 INFO [localhost-startStop-9] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:25:39.882 INFO [localhost-startStop-9] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:25:50.430 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:25:50.436 INFO [localhost-startStop-10] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:25:50.445 INFO [localhost-startStop-10] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [9] ms
+05-Dec-2017 19:26:01.016 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:26:01.022 INFO [localhost-startStop-11] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:26:01.035 INFO [localhost-startStop-11] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [13] ms
+05-Dec-2017 19:26:11.615 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:26:11.621 INFO [localhost-startStop-12] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:26:11.629 INFO [localhost-startStop-12] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:26:22.213 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:26:22.218 INFO [localhost-startStop-13] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:26:22.224 INFO [localhost-startStop-13] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [6] ms
+05-Dec-2017 19:26:32.776 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:26:32.781 INFO [localhost-startStop-14] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:26:32.788 INFO [localhost-startStop-14] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [6] ms
+05-Dec-2017 19:26:43.337 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:26:43.344 INFO [localhost-startStop-15] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:26:43.352 INFO [localhost-startStop-15] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:26:53.908 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:26:53.913 INFO [localhost-startStop-16] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:26:53.921 INFO [localhost-startStop-16] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [8] ms
+05-Dec-2017 19:27:04.476 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:27:04.482 INFO [localhost-startStop-17] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:27:04.489 INFO [localhost-startStop-17] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:27:15.033 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:27:15.038 INFO [localhost-startStop-18] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:27:15.045 INFO [localhost-startStop-18] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [7] ms
+05-Dec-2017 19:27:25.585 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Dec-2017 19:27:25.591 INFO [localhost-startStop-19] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT]
+05-Dec-2017 19:27:25.600 INFO [localhost-startStop-19] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/ROOT] has finished in [9] ms
+05-Dec-2017 19:27:29.224 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:27:29.236 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:27:29.287 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Dec-2017 19:27:29.315 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:27:29.319 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:27:29.320 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:27:29.321 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:36:30.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+05-Dec-2017 19:36:30.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+05-Dec-2017 19:36:30.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+05-Dec-2017 19:36:30.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Dec-2017 19:36:30.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.1
+05-Dec-2017 19:36:30.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+05-Dec-2017 19:36:30.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+05-Dec-2017 19:36:30.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+05-Dec-2017 19:36:30.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Dec-2017 19:36:30.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:36:30.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:36:30.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/erichan/Downloads/apache-tomcat-8.5.24/conf/logging.properties
+05-Dec-2017 19:36:30.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Dec-2017 19:36:30.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Dec-2017 19:36:30.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Dec-2017 19:36:30.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Dec-2017 19:36:30.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:36:30.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/erichan/Downloads/apache-tomcat-8.5.24
+05-Dec-2017 19:36:30.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/erichan/Downloads/apache-tomcat-8.5.24/temp
+05-Dec-2017 19:36:30.376 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/erichan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Dec-2017 19:36:30.477 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:36:30.504 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 19:36:30.510 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:36:30.511 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 19:36:30.511 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 390 ms
+05-Dec-2017 19:36:30.544 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Dec-2017 19:36:30.544 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+05-Dec-2017 19:36:30.559 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/Users/erichan/Downloads/apache-tomcat-8.5.24/conf/Catalina/localhost/ROOT.xml]
+05-Dec-2017 19:36:32.033 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 19:36:32.672 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/erichan/Downloads/apache-tomcat-8.5.24/conf/Catalina/localhost/ROOT.xml] has finished in [2,112] ms
+05-Dec-2017 19:36:32.672 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/docs]
+05-Dec-2017 19:36:32.686 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/docs] has finished in [14] ms
+05-Dec-2017 19:36:32.687 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/manager]
+05-Dec-2017 19:36:32.706 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/manager] has finished in [20] ms
+05-Dec-2017 19:36:32.707 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/examples]
+05-Dec-2017 19:36:32.936 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/examples] has finished in [230] ms
+05-Dec-2017 19:36:32.936 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/host-manager]
+05-Dec-2017 19:36:32.946 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Downloads/apache-tomcat-8.5.24/webapps/host-manager] has finished in [10] ms
+05-Dec-2017 19:36:32.948 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:36:32.952 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:36:32.954 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2442 ms
+05-Dec-2017 19:40:47.513 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+05-Dec-2017 19:40:47.521 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@faf2372]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@29e7e8d1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Dec-2017 19:40:47.522 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@faf2372]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@3e8dfd85]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Dec-2017 19:40:49.428 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+05-Dec-2017 19:50:56.491 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:50:56.496 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:50:56.552 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Dec-2017 19:50:56.566 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster2-connection-reaper-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.566 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster2-scheduled-task-worker-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.566 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster2-nio-worker-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.567 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster2-timeouter-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ io.netty.util.HashedWheelTimer$Worker.waitForNextTick(HashedWheelTimer.java:560)
+ io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:459)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.567 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [threadDeathWatcher-9-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ io.netty.util.ThreadDeathWatcher$Watcher.run(ThreadDeathWatcher.java:152)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.567 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster2-nio-worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.568 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster2-nio-worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.568 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster3-connection-reaper-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.569 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster3-scheduled-task-worker-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.569 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster3-nio-worker-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.569 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster3-timeouter-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ io.netty.util.HashedWheelTimer$Worker.waitForNextTick(HashedWheelTimer.java:560)
+ io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:459)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.570 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster3-nio-worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.570 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster3-nio-worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.570 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster4-connection-reaper-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.571 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster4-scheduled-task-worker-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.571 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster4-nio-worker-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.571 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster4-timeouter-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ io.netty.util.HashedWheelTimer$Worker.waitForNextTick(HashedWheelTimer.java:560)
+ io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:459)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.572 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster4-nio-worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.572 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster4-nio-worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.572 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster6-connection-reaper-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.573 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster6-scheduled-task-worker-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.573 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster6-nio-worker-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.573 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster6-timeouter-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ io.netty.util.HashedWheelTimer$Worker.waitForNextTick(HashedWheelTimer.java:560)
+ io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:459)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.574 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster6-nio-worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.574 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster6-nio-worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.574 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster7-connection-reaper-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.575 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster7-scheduled-task-worker-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.575 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster7-nio-worker-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.576 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster7-timeouter-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ io.netty.util.HashedWheelTimer$Worker.waitForNextTick(HashedWheelTimer.java:560)
+ io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:459)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.576 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster7-nio-worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.576 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster7-nio-worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.577 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster3-worker-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.577 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster6-worker-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.577 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster4-worker-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.578 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster2-worker-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.578 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster7-worker-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.578 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster6-reconnection-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.579 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster4-reconnection-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.579 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster7-reconnection-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.579 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster3-reconnection-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.580 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster2-reconnection-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.580 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster4-reconnection-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.580 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster6-reconnection-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.581 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster7-reconnection-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.581 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster2-reconnection-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.581 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster3-reconnection-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.582 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster3-worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.582 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster4-worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.582 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster7-worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.583 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster6-worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.583 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster2-worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.584 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster4-nio-worker-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.584 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster3-nio-worker-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.584 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster7-nio-worker-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.585 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster2-nio-worker-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.585 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster6-nio-worker-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.585 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster7-worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.585 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster6-worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.586 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster4-worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.586 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster2-worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.586 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster3-worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.587 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster6-nio-worker-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.587 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster7-nio-worker-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.587 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster4-nio-worker-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.588 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster3-nio-worker-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.588 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster2-nio-worker-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.588 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster7-worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.588 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster6-worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.589 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster3-worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.589 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster4-worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.589 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [cluster2-worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+ java.lang.Thread.run(Thread.java:748)
+05-Dec-2017 19:50:56.590 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@581725ce]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@4fe70c01]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Dec-2017 19:50:56.590 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@581725ce]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@6eafac92]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Dec-2017 19:50:56.590 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@581725ce]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@763762bb]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Dec-2017 19:50:56.590 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@581725ce]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@54c7a39f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Dec-2017 19:50:56.590 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@581725ce]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@167b20d7]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Dec-2017 19:50:56.591 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@581725ce]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@5b14ba19]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Dec-2017 19:50:56.601 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:50:56.602 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 19:50:56.604 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 19:50:56.604 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

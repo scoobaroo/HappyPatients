@@ -1,0 +1,6 @@
+/* AUTOMATICALLY GENERATED ON Sun Dec 03 21:12:40 PST 2017*/
+/* DO NOT EDIT */
+
+grant codeBase "https://docs.oracle.com/javase/tutorial/security/" {
+};
+

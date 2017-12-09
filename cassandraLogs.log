@@ -1,0 +1,599 @@
+2017-12-07 22:11:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:11:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:11:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:11:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:11:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:12:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:12:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:12:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:12:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:12:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:12:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:12:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:12:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:12:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:12:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:12:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:12:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:13:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:13:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:13:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:13:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:13:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:13:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:13:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:13:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:13:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:13:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:13:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:13:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:14:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:14:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:14:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:14:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:14:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:14:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:14:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:14:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:14:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:14:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:14:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:14:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:15:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:15:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:15:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:15:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:15:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:15:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:15:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:15:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:15:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:15:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:15:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:15:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:16:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:16:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:16:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:16:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:16:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:16:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:16:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:16:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:16:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:16:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:16:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:16:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:17:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:17:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:17:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:17:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:17:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:17:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:17:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:17:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:17:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:17:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:17:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:17:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:18:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:18:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:18:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:18:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:18:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:18:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:18:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:18:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:18:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:18:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:18:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:18:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:19:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:19:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:19:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:19:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:19:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:19:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:19:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:19:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:19:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:19:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:19:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:19:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:20:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:20:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:20:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:20:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:20:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:20:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:20:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:20:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:20:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:20:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:20:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:20:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:21:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:21:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:21:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:21:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:21:12 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:21:12 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:21:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:21:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:21:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:21:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:21:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:21:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:22:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:22:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:22:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:22:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:22:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:22:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:22:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:22:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:22:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:22:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:22:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:22:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:23:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:23:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:23:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:23:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:23:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:23:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:23:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:23:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:23:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:23:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:23:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:23:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:24:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:24:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:24:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:24:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:24:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:24:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:24:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:24:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:24:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:24:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:24:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:24:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:25:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:25:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:25:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:25:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:25:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:25:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:25:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:25:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:25:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:25:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:25:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:25:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:26:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:26:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:26:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:26:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:26:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:26:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:26:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:26:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:26:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:26:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:26:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:26:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:27:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:27:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:27:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:27:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:27:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:27:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:27:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:27:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:27:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:27:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:27:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:27:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:28:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:28:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:28:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:28:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:28:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:28:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:28:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:28:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:28:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:28:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:28:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:28:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:29:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:29:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:29:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:29:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:29:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:29:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:29:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:29:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:29:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:29:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:29:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:29:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:30:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:30:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:30:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:30:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:30:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:30:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:30:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:30:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:30:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:30:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:30:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:30:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:31:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:31:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:31:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:31:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:31:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:31:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:31:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:31:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:31:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:31:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:31:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:31:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:32:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:32:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:32:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:32:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:32:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:32:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:32:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:32:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:32:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:32:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:32:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:32:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:33:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:33:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:33:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:33:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:33:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:33:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:33:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:33:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:33:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:33:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:33:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:33:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:34:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:34:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:34:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:34:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:34:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:34:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:34:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:34:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:34:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:34:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:34:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:34:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:35:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:35:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:35:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:35:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:35:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:35:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:35:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:35:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:35:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:35:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:35:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:35:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:36:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:36:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:36:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:36:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:36:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:36:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:36:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:36:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:36:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:36:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:36:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:36:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:37:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:37:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:37:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:37:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:37:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:37:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:37:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:37:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:37:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:37:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:37:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:37:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:38:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:38:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:38:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:38:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:38:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:38:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:38:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:38:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:38:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:38:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:38:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:38:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:39:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:39:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:39:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:39:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:39:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:39:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:39:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:39:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:39:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:39:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:39:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:39:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:40:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:40:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:40:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:40:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:40:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:40:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:40:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:40:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:40:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:40:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:40:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:40:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:41:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:41:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:41:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:41:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:41:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:41:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:41:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:41:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:41:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:41:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:41:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:41:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:42:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:42:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:42:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:42:13 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:42:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:42:13 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:42:35 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:42:35 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:42:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:42:43 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:42:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:42:43 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:58:23 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:58:23 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:58:31 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:58:31 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 22:58:31 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 22:58:31 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:09:18 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:09:18 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:09:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:09:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:09:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:09:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:09:48 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:09:48 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:09:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:09:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:09:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:09:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:10:18 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:10:18 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:10:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:10:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:10:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:10:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:10:48 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:10:48 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:10:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:10:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:10:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:10:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:11:18 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:11:18 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:11:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:11:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:11:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:11:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:11:48 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:11:48 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:11:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:11:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:11:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:11:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:12:18 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:12:18 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:12:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:12:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:12:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:12:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:12:48 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:12:48 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:12:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:12:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:12:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:12:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:13:18 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:13:18 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:13:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:13:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:13:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:13:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:13:48 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:13:48 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:13:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:13:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:13:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:13:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:14:18 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:14:18 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:14:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:14:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:14:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:14:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:14:48 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:14:48 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:14:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:14:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:14:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:14:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:15:18 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:15:18 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:15:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:15:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:15:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:15:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:15:48 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:15:48 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:15:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:15:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:15:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:15:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:16:18 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:16:18 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:16:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:16:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:16:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:16:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:16:48 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:16:48 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:16:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:16:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:16:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:16:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:17:18 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:17:18 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:17:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:17:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:17:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:17:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:17:48 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:17:48 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:17:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:17:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:17:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:17:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:18:18 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:18:18 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:18:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:18:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:18:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:18:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:18:48 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:18:48 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:18:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:18:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:18:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:18:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:19:18 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:19:18 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:19:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:19:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:19:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:19:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:19:48 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:19:48 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:19:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:19:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:19:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:19:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:20:18 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:20:18 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:20:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:20:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:20:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:20:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:20:48 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:20:48 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:20:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:20:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:20:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:20:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:21:18 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:21:18 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:21:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:21:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:21:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:21:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:21:48 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:21:48 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:21:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:21:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:21:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:21:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:22:18 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:22:18 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:22:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:22:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:22:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:22:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:22:48 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:22:48 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:22:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:22:56 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:22:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:22:56 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:23:18 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:23:18 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:23:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:23:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:23:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:23:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:23:48 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:23:48 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:38:22 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:38:22 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:38:22 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:38:22 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:38:44 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:38:44 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:38:52 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:38:52 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:38:52 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:38:52 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:39:18 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:39:18 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:39:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:39:26 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:39:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:39:26 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:40:34 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:40:34 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:40:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:40:42 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:40:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:40:42 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:41:57 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:41:57 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:42:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:42:05 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:42:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:42:05 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-07 23:42:27 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-07 23:42:27 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-08 00:26:40 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-08 00:26:40 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-08 00:26:40 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-08 00:26:40 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-08 00:27:03 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-08 00:27:03 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-08 00:27:10 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-08 00:27:10 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-3, inFlight=0, closed=false] heartbeat query succeeded
+2017-12-08 00:27:10 DEBUG Connection:1088 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2017-12-08 00:27:10 DEBUG Connection:1179 - Connection[/127.0.0.1:9042-2, inFlight=0, closed=false] heartbeat query succeeded
