@@ -15,14 +15,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Properties;
 import java.util.UUID;
-import java.util.function.Consumer;
-import java.util.stream.Collectors;
-
 import com.datastax.driver.core.Session;
-import javax.naming.InitialContext;
-import java.util.UUID;
 
-@Path("/patient_system")
+@Path("/system")
 public class HappyPatientsService {
     CassandraConnector connector = new CassandraConnector();
     private static final Logger logger = Logger.getLogger(HappyPatientsService.class);
@@ -130,11 +125,10 @@ public class HappyPatientsService {
     }
 
     @PUT
-    @Path("/updatePatient/{patientId}")
+    @Path("/updatePatient/{id}")
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response updatePatient(@PathParam("param") UUID patientId) throws IOException {
+    public Response updatePatient(@PathParam("id") UUID id, Patient patient) throws IOException {
         logger.debug("Updating Patient info");
-        String patientName = "";
         connector.connect("127.0.0.1", 9042);
         Session session = connector.getSession();
         KeyspaceRepository sr = new KeyspaceRepository(session);
@@ -146,10 +140,10 @@ public class HappyPatientsService {
         consumer1.run();
         consumer2.run();
         PatientPersonalInfo ppi = new PatientPersonalInfo(session);
-        ppi.updatePatient(patientId, patient);
-        patientName = ppi.selectById(patient.getId()).getFirstName() + " " + ppi.selectById(patient.getId()).getLastName();
+        ppi.updatePatient(id,patient);
+        Patient p = ppi.selectById(id);
         connector.close();
-        String output = "Patient info updated: " + patientName;
+        String output = "Patient info updated: " + p.toString();
         return Response.status(200).entity(output).build();
     }
 

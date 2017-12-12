@@ -52,59 +52,37 @@ public class PatientPersonalInfo {
             final String query = sb.toString();
             session.execute(query);
         }
+        
         public void updatePatient(UUID id, Patient patient){
-        		StringBuilder sb = new StringBuilder("UPDATE ").append(TABLE_NAME).append(" SET firstName='").append(patient.getFirstName()).append("'").
-        				append(" SET lastName='").append(patient.getLastName()).append("'").
-        				append(" SET address='").append(patient.getAddress()).append("'").
-        				append(" SET phoneNumber='").append(patient.getPhoneNumber()).append("'").
-        				append(" SET birthDate='").append(patient.getBirthDate()).append("'").
-        				append(" SET status='").append(patient.getStatus()).append("'").
-        				append(" WHERE id=").append(" WHERE id=").append(id).append(" IF EXISTS").append(";");
+        		StringBuilder sb = new StringBuilder("UPDATE ").append(TABLE_NAME).
+        				append(" SET firstName='").append(patient.getFirstName()).append("',").
+        				append(" lastName='").append(patient.getLastName()).append("',").
+        				append(" address='").append(patient.getAddress()).append("',").
+        				append(" phoneNumber='").append(patient.getPhoneNumber()).append("',").
+        				append(" birthDate='").append(patient.getBirthDate()).append("',").
+        				append(" status='").append(patient.getStatus()).append("' ").
+        				append(" WHERE id=").append(id);
         		final String query = sb.toString();
         		logger.debug("UPDATE Query:");
         		logger.debug(query);
         		session.execute(query);
         }
-        
-        public void updateFirstName(UUID id, String name) {
-            StringBuilder sb = new StringBuilder("UPDATE ").append(TABLE_NAME).append(" SET firstName='").
-                    append(name).append("'").append(" WHERE id=").append(id).append(" IF EXISTS").append(";");
-            final String query = sb.toString();
-            logger.debug("Query: ");
-            logger.debug(query);
-            session.execute(query);
-        }
 
         public Patient selectById(UUID id) {
-        		String stringId = id.toString();
-        		if (cache.getContentInCache(stringId)!=null) {
-        			System.out.println("Getting patient "+id +" from cache");
-        			@SuppressWarnings("unchecked")
-					HashMap<String,String> map = (HashMap<String, String>) cache.getContentInCache(stringId);
-        			String firstName = map.get("firstName");
-        			String lastName = map.get("lastName");
-        			String address = map.get("address");
-        			String phoneNumber = map.get("phoneNumber");
-        			String status = map.get("status");
-        			String birthDate = map.get("birthDate");
-        			Patient p = new Patient(id, firstName,lastName,birthDate,address,phoneNumber,status);
-        			return p;
-        		} else {
-	            StringBuilder sb = new StringBuilder("SELECT * FROM ").append(TABLE_NAME).append(" WHERE id = ").append(id).append(";");
-	            final String query = sb.toString();
-	            ResultSet rs = session.execute(query);
-	            List<Patient> patients = new ArrayList<Patient>();
-	            for (Row r : rs) {
-	                Patient p = new Patient(r.getUUID("id"), r.getString("firstName"), r.getString("lastName"),
-	                        r.getString("birthDate") , r.getString("address"), r.getString("phoneNumber"), r.getString("status"));
-	                patients.add(p);
-	            }
-	            if(patients.size()>0) {
-	            		return patients.get(0);
-	            } else {
-	            		return null;
-	            }
-        		}
+            StringBuilder sb = new StringBuilder("SELECT * FROM ").append(TABLE_NAME).append(" WHERE id = ").append(id).append(";");
+            final String query = sb.toString();
+            ResultSet rs = session.execute(query);
+            List<Patient> patients = new ArrayList<Patient>();
+            for (Row r : rs) {
+                Patient p = new Patient(r.getUUID("id"), r.getString("firstName"), r.getString("lastName"),
+                        r.getString("birthDate") , r.getString("address"), r.getString("phoneNumber"), r.getString("status"));
+                patients.add(p);
+            }
+            if(patients.size()>0) {
+            		return patients.get(0);
+            } else {
+            		return null;
+            }
         }
 
         public List<Patient> selectAll() throws IOException {

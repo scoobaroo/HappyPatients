@@ -37,9 +37,12 @@ public class Patient implements Serializable {
         this.phoneNumber = phoneNumber;
         this.status = status;
     }
+    @Override
     public String toString() {
-    		 return id.toString()+firstName+lastName+birthDate+address+phoneNumber+status;
+    		 return "id: " +id.toString()+"\nfirst name: " +firstName+"\nlast name: " +lastName+"\nbirth date: " +birthDate+"\naddress: " 
+    				 +address+"\nphoneNumber: " +phoneNumber+"\nstatus: " +status;
     }
+    
     public UUID getId() {
         return id;
     }
