@@ -10,10 +10,13 @@ import com.sjsu.cs249.Services.Memcached;
 import org.apache.log4j.Logger;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Properties;
 import java.util.UUID;
 import java.util.function.Consumer;
+import java.util.stream.Collectors;
 
 import com.datastax.driver.core.Session;
 import javax.naming.InitialContext;
@@ -25,7 +28,11 @@ public class HappyPatientsService {
     private static final Logger logger = Logger.getLogger(HappyPatientsService.class);
     Properties properties = new java.util.Properties();  
 	String property;
-	public HappyPatientsService() {
+	Memcached cache;
+	
+	public HappyPatientsService() throws IOException {
+		cache = new Memcached();
+		cache.start();
 		InputStream propertiesStream = Thread.currentThread().getContextClassLoader().getResourceAsStream("fetchPolicy.properties");
 	    	if (propertiesStream != null) {
 	    		try {
@@ -36,8 +43,38 @@ public class HappyPatientsService {
 					e.printStackTrace();
 				}
 	    	}
+	    	populateCache();
 	}
-
+	
+	@SuppressWarnings("unlikely-arg-type")
+	public void populateCache() throws IOException {
+		connector.connect("127.0.0.1", 9042);
+        Session session = connector.getSession();
+        KeyspaceRepository sr = new KeyspaceRepository(session);
+        sr.useKeyspace("hospitalOps");
+        PatientPersonalInfo ppi = new PatientPersonalInfo(session);
+        ArrayList<Patient> patients = (ArrayList<Patient>) ppi.selectAll();
+		@SuppressWarnings("unchecked")
+		List<Patient> filtered = new ArrayList<Patient>();
+		for(Patient p : patients) {
+			if(p.getStatus().getClass().equals(property)) {
+				filtered.add(p);
+			}
+		}
+	    	for (Patient p : filtered) {
+	    		HashMap<String, String> map = new HashMap<>();
+	    		System.out.println("Putting patient " + p.getFirstName() + " in cache");
+	    		map.put("id", p.getId().toString());
+	    		map.put("firstName", p.getFirstName());
+	    		map.put("lastName", p.getLastName());
+	    		map.put("status", p.getStatus());
+	    		map.put("address", p.getAddress());
+	    		map.put("phoneNumber", p.getPhoneNumber());
+	    		cache.putContentInCache(p.getId().toString(), map);
+	    	}
+	    	connector.close();
+	}
+	
     @GET
     @Path("/testProperties")
     public Response testProperties() {
@@ -93,9 +130,9 @@ public class HappyPatientsService {
     }
 
     @PUT
-    @Path("/updatePersonalInfo/{id}")
+    @Path("/updatePatient/{patientId}")
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response updatePersonalInfo(Patient patient) throws IOException {
+    public Response updatePatient(@PathParam("param") UUID patientId) throws IOException {
         logger.debug("Updating Patient info");
         String patientName = "";
         connector.connect("127.0.0.1", 9042);
@@ -108,29 +145,8 @@ public class HappyPatientsService {
         EmailConsumer consumer2 = new Messager.EmailConsumer();
         consumer1.run();
         consumer2.run();
-//        for(String s : m.receiveMessages())
-//        {
-//            logger.debug("Messages: " + s);
-//        }
         PatientPersonalInfo ppi = new PatientPersonalInfo(session);
-        if(!(patient.getFirstName().equals("") || patient.getFirstName().equals(null)))
-        {
-            logger.debug("Patient old name: " + ppi.selectById(patient.getId()).getFirstName());
-            ppi.updateFirstName(patient.getId(),patient.getFirstName());
-            logger.debug("Updated name to: " + patient.getFirstName());
-        }
-        if(patient.getLastName().equals("") || patient.getLastName().equals(null))
-        {
-        }
-        if(patient.getBirthDate().equals("") || patient.getBirthDate().equals(null))
-        {
-        }
-        if(patient.getAddress().equals("") || patient.getAddress().equals(null))
-        {
-        }
-        if(patient.getPhoneNumber().equals("") || patient.getPhoneNumber().equals(null))
-        {
-        }
+        ppi.updatePatient(patientId, patient);
         patientName = ppi.selectById(patient.getId()).getFirstName() + " " + ppi.selectById(patient.getId()).getLastName();
         connector.close();
         String output = "Patient info updated: " + patientName;

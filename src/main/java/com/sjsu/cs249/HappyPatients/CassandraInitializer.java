@@ -32,9 +32,6 @@ public class CassandraInitializer {
         ppi.insertPatient(patient3);
         Patient patient4 = new Patient(UUIDs.timeBased(), "Sonali", "Mishra", "1985-11-01", "Mumbai Blvd, India, IN", "668-952-3353", "Urgent Care");
         ppi.insertPatient(patient4);
-        patient.setFirstName("Arnold");
-        patient2.setFirstName("Miranda");
-        patient2.setStatus("ICU");
         ppi.updateFirstName(patient.getId(),patient.getFirstName());
         ppi.updateFirstName(patient2.getId(),patient2.getFirstName());
         List<Patient> patients = ppi.selectAll();
@@ -50,14 +47,6 @@ public class CassandraInitializer {
         }
         Messager.thread(new Producer(), false);
         Messager.thread(new Producer(), false);
-        Messager.thread(new Producer(), false);
-        Messager.thread(new Producer(), false);
-        Messager.thread(new Producer(), false);
-        Messager.thread(new Producer(), false);
-        Messager.thread(new Messager.EmailConsumer(), false);
-        Messager.thread(new Messager.AnalyticsConsumer(), false);
-        Messager.thread(new Messager.EmailConsumer(), false);
-        Messager.thread(new Messager.AnalyticsConsumer(), false);
         Messager.thread(new Messager.EmailConsumer(), false);
         Messager.thread(new Messager.AnalyticsConsumer(), false);
         ppi.selectById(UUID.fromString("f2a274a0-dc8a-11e7-8137-d9d45fa5e965"));

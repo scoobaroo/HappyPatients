@@ -12,7 +12,8 @@ import javax.jms.MessageConsumer;
 import javax.jms.MessageProducer;
 import javax.jms.Session;
 import javax.jms.TextMessage;
- 
+import javax.swing.*;
+
 public class Messager {
 
     public static void thread(Runnable runnable, boolean daemon) {
@@ -118,6 +119,7 @@ public class Messager {
                     TextMessage textMessage = (TextMessage) message;
                     String text = textMessage.getText();
                     System.out.println("Received: " + text);
+                    JOptionPane.showMessageDialog(null, "SENDING EMAILS");
                 } else {
                     System.out.println("Received: " + message);
                 }
@@ -157,6 +159,7 @@ public class Messager {
                     TextMessage textMessage = (TextMessage) message;
                     String text = textMessage.getText();
                     System.out.println("Received: " + text);
+                    JOptionPane.showMessageDialog(null, "SENDING ANALYTICS");
                 } else {
                     System.out.println("Received: " + message);
                 }

@@ -52,7 +52,20 @@ public class PatientPersonalInfo {
             final String query = sb.toString();
             session.execute(query);
         }
-
+        public void updatePatient(UUID id, Patient patient){
+        		StringBuilder sb = new StringBuilder("UPDATE ").append(TABLE_NAME).append(" SET firstName='").append(patient.getFirstName()).append("'").
+        				append(" SET lastName='").append(patient.getLastName()).append("'").
+        				append(" SET address='").append(patient.getAddress()).append("'").
+        				append(" SET phoneNumber='").append(patient.getPhoneNumber()).append("'").
+        				append(" SET birthDate='").append(patient.getBirthDate()).append("'").
+        				append(" SET status='").append(patient.getStatus()).append("'").
+        				append(" WHERE id=").append(" WHERE id=").append(id).append(" IF EXISTS").append(";");
+        		final String query = sb.toString();
+        		logger.debug("UPDATE Query:");
+        		logger.debug(query);
+        		session.execute(query);
+        }
+        
         public void updateFirstName(UUID id, String name) {
             StringBuilder sb = new StringBuilder("UPDATE ").append(TABLE_NAME).append(" SET firstName='").
                     append(name).append("'").append(" WHERE id=").append(id).append(" IF EXISTS").append(";");

@@ -1,0 +1,117 @@
+11-Dec-2017 15:40:50.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+11-Dec-2017 15:40:50.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+11-Dec-2017 15:40:50.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+11-Dec-2017 15:40:50.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+11-Dec-2017 15:40:50.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.1
+11-Dec-2017 15:40:50.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+11-Dec-2017 15:40:50.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+11-Dec-2017 15:40:50.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+11-Dec-2017 15:40:50.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Dec-2017 15:40:50.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/erichan/Desktop/CS249DistributedComputing/finalproject-happypatients/tomcat
+11-Dec-2017 15:40:50.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/erichan/Desktop/CS249DistributedComputing/finalproject-happypatients/tomcat
+11-Dec-2017 15:40:50.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/erichan/Desktop/CS249DistributedComputing/finalproject-happypatients/tomcat/conf/logging.properties
+11-Dec-2017 15:40:50.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Dec-2017 15:40:50.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Dec-2017 15:40:50.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Dec-2017 15:40:50.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-Dec-2017 15:40:50.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/erichan/Desktop/CS249DistributedComputing/finalproject-happypatients/tomcat
+11-Dec-2017 15:40:50.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/erichan/Desktop/CS249DistributedComputing/finalproject-happypatients/tomcat
+11-Dec-2017 15:40:50.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/erichan/Desktop/CS249DistributedComputing/finalproject-happypatients/tomcat/temp
+11-Dec-2017 15:40:50.713 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/erichan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+11-Dec-2017 15:40:50.828 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Dec-2017 15:40:50.852 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Dec-2017 15:40:50.858 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Dec-2017 15:40:50.859 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Dec-2017 15:40:50.859 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 446 ms
+11-Dec-2017 15:40:50.890 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Dec-2017 15:40:50.890 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+11-Dec-2017 15:40:50.897 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/finalproject-happypatients/tomcat/conf/Catalina/localhost/ROOT.xml]
+11-Dec-2017 15:40:53.084 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Dec-2017 15:40:53.868 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/finalproject-happypatients/tomcat/conf/Catalina/localhost/ROOT.xml] has finished in [2,970] ms
+11-Dec-2017 15:40:53.868 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/finalproject-happypatients/tomcat/webapps/docs]
+11-Dec-2017 15:40:53.877 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/finalproject-happypatients/tomcat/webapps/docs] has finished in [9] ms
+11-Dec-2017 15:40:53.878 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/finalproject-happypatients/tomcat/webapps/manager]
+11-Dec-2017 15:40:53.896 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/finalproject-happypatients/tomcat/webapps/manager] has finished in [18] ms
+11-Dec-2017 15:40:53.896 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/finalproject-happypatients/tomcat/webapps/examples]
+11-Dec-2017 15:40:54.098 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/finalproject-happypatients/tomcat/webapps/examples] has finished in [202] ms
+11-Dec-2017 15:40:54.099 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/finalproject-happypatients/tomcat/webapps/host-manager]
+11-Dec-2017 15:40:54.109 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/finalproject-happypatients/tomcat/webapps/host-manager] has finished in [10] ms
+11-Dec-2017 15:40:54.111 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Dec-2017 15:40:54.115 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Dec-2017 15:40:54.117 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3257 ms
+11-Dec-2017 15:43:21.757 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+11-Dec-2017 15:43:21.765 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+11-Dec-2017 15:43:21.766 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+11-Dec-2017 15:43:21.767 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+11-Dec-2017 15:43:21.767 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+11-Dec-2017 15:43:21.767 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+11-Dec-2017 15:43:21.768 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@391914a]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@36d6d1a2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+11-Dec-2017 15:43:21.768 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@391914a]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@98a6085]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+11-Dec-2017 15:43:23.835 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+11-Dec-2017 15:45:02.925 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+11-Dec-2017 15:45:02.937 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+11-Dec-2017 15:45:02.938 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+11-Dec-2017 15:45:04.972 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+11-Dec-2017 15:47:13.342 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+11-Dec-2017 15:47:15.285 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+11-Dec-2017 15:58:02.168 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+11-Dec-2017 15:58:03.900 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+11-Dec-2017 15:58:13.951 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+11-Dec-2017 15:58:15.834 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+11-Dec-2017 16:02:01.819 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+11-Dec-2017 16:02:03.644 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+11-Dec-2017 16:02:24.552 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+11-Dec-2017 16:02:26.324 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+11-Dec-2017 16:02:57.879 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+11-Dec-2017 16:02:59.573 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+11-Dec-2017 16:18:37.691 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+11-Dec-2017 16:18:39.382 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed

@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [11/Dec/2017:15:41:09 -0800] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [11/Dec/2017:15:41:09 -0800] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [11/Dec/2017:15:41:20 -0800] "GET /patient_system/rest/retrieveAll HTTP/1.1" 404 1113
+0:0:0:0:0:0:0:1 - - [11/Dec/2017:15:41:38 -0800] "GET /rest/patient_system/retrieveAll HTTP/1.1" 200 62
+0:0:0:0:0:0:0:1 - - [11/Dec/2017:15:43:00 -0800] "GET /rest/patient_system/testProperties HTTP/1.1" 200 3
+0:0:0:0:0:0:0:1 - - [11/Dec/2017:15:43:27 -0800] "GET /rest/patient_system/testProperties HTTP/1.1" 200 3
+0:0:0:0:0:0:0:1 - - [11/Dec/2017:15:59:50 -0800] "PUT /rest/patient_system/updatePatient/bfd0f060-dece-11e7-a494-ed1558baf2dd HTTP/1.1" 404 1078
+0:0:0:0:0:0:0:1 - - [11/Dec/2017:16:00:12 -0800] "PUT /rest/patient_system/updatePatient/bfd0f060-dece-11e7-a494-ed1558baf2dd HTTP/1.1" 404 1078
+0:0:0:0:0:0:0:1 - - [11/Dec/2017:16:00:48 -0800] "GET /rest/patient_system/updatePatient/bfd0f060-dece-11e7-a494-ed1558baf2dd HTTP/1.1" 404 1078
