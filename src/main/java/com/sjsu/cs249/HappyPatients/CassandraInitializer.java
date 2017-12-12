@@ -32,8 +32,6 @@ public class CassandraInitializer {
         ppi.insertPatient(patient3);
         Patient patient4 = new Patient(UUIDs.timeBased(), "Sonali", "Mishra", "1985-11-01", "Mumbai Blvd, India, IN", "668-952-3353", "Urgent Care");
         ppi.insertPatient(patient4);
-        ppi.updateFirstName(patient.getId(),patient.getFirstName());
-        ppi.updateFirstName(patient2.getId(),patient2.getFirstName());
         List<Patient> patients = ppi.selectAll();
         for(Patient p : patients) {
         		System.out.println(p.getFirstName());

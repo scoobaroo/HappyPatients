@@ -88,7 +88,7 @@ public class HappyPatientsService {
         List<Patient> patients = ppi.selectAll();
         connector.close();
         for ( Patient p : patients) {
-        		resultSet += p.getFirstName() + " " + p.getLastName() + "</br>";
+        		resultSet += p.toString() + "</br>";
         }
         return Response.status(200).entity(resultSet).build();
     }
