@@ -53,7 +53,8 @@ public class PatientPersonalInfo {
             session.execute(query);
         }
         
-        public void updatePatient(UUID id, Patient patient){
+        public void updatePatient(String id, Patient patient){
+        		UUID uuid = UUID.fromString(id);
         		StringBuilder sb = new StringBuilder("UPDATE ").append(TABLE_NAME).
         				append(" SET firstName='").append(patient.getFirstName()).append("',").
         				append(" lastName='").append(patient.getLastName()).append("',").
@@ -61,7 +62,7 @@ public class PatientPersonalInfo {
         				append(" phoneNumber='").append(patient.getPhoneNumber()).append("',").
         				append(" birthDate='").append(patient.getBirthDate()).append("',").
         				append(" status='").append(patient.getStatus()).append("' ").
-        				append(" WHERE id=").append(id).append(" IF EXISTS;");
+        				append(" WHERE id=").append(uuid).append(" IF EXISTS;");
         		final String query = sb.toString();
         		logger.debug("UPDATE Query:");
         		logger.debug(query);
@@ -120,5 +121,10 @@ public class PatientPersonalInfo {
             final String query = sb.toString();
             session.execute(query);
         }
+
+		public List<Patient> selectPatientsWithStatus(String status) {
+			// TODO Auto-generated method stub
+			return null;
+		}
 
 }

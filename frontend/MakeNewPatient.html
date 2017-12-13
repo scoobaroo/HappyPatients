@@ -3,19 +3,22 @@
 <link href="css/round-about.css" rel="stylesheet">
 <a href='index.html'>Home</a>
 <script src = 'js/index.js'></script>
+<style>
+    label.required:after {content: " *"; color: red;}
+</style>​
 <h1>Create New Patient</h1>
 <form>
-    <label> First Name</label><br>
-    <input id = "firstName" type="text"></input><br>
-    <label> Last Name</label><br>
-    <input id = "lastName" type="text"></input><br>
-    <label> Address</label><br>
-    <input id = "address" type="text"></input><br>
-    <label> Phone Number</label><br>
-    <input id="phoneNumber" type="text"></input><br>
-    <label> Date Of Birth</label><br>
-    <input id = "birthDate" type="text"></input><br>
-    <label> Status</label><br>
-    <input id = "status" type="text"></input><br>
+    <label class="required"><strong>First Name</strong> </label><br>
+    <input class="required" id = "firstName" type="text"></input><br>
+    <label class="required"> <strong> Last Name</strong> </label><br>
+    <input class="required" id = "lastName" type="text"></input><br>
+    <label class="required"> <strong> Address</strong> </label><br>
+    <input class="required" id = "address" type="text"></input><br>
+    <label class="required"> <strong> Phone Number</strong> </label><br>
+    <input class="required" id="phoneNumber" type="text"></input><br>
+    <label class="required"> <strong> Date Of Birth</strong> </label><br>
+    <input class="required" id = "birthDate" type="text"></input><br>
+    <label class="required"> <strong> Status</strong> </label><br>
+    <input class="required" id = "status" type="text"></input><br>
     <button type="button" class="btn btn-primary" id="create">Submit</button>
 </form>

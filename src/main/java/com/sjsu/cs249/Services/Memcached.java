@@ -1,5 +1,6 @@
 package com.sjsu.cs249.Services;
 import net.spy.memcached.MemcachedClient;
+import net.spy.memcached.*;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -16,6 +17,10 @@ public class Memcached {
 	public void start() throws IOException {
 		memcachedClient = new MemcachedClient(new InetSocketAddress(memcachedHost, memcachedPort));
 		// Connecting to Memcached server on localhost
+	}
+	
+	public Map dump() {
+		return memcachedClient.d;
 	}
 	
 	public void putContentInCache(String id, HashMap m) {
