@@ -16,7 +16,8 @@ import java.util.List;
 import java.util.Properties;
 import java.util.UUID;
 import com.datastax.driver.core.Session;
-
+import com.fasterxml.jackson.*;
+import com.fasterxml.jackson.databind.ObjectMapper;
 @Path("/system")
 public class HappyPatientsService {
     CassandraConnector connector = new CassandraConnector();
@@ -24,7 +25,8 @@ public class HappyPatientsService {
     Properties properties = new java.util.Properties();  
 	String property;
 	Memcached cache;
-	
+	ObjectMapper mapper = new ObjectMapper();
+
 	public HappyPatientsService() throws IOException {
 		cache = new Memcached();
 		cache.start();
@@ -90,7 +92,8 @@ public class HappyPatientsService {
         for ( Patient p : patients) {
         		resultSet += p.toString() + "</br>";
         }
-        return Response.status(200).entity(resultSet).build();
+        String jsonInString = mapper.writeValueAsString(patients);
+        return Response.status(200).entity(jsonInString).build();
     }
 
     @GET
@@ -133,14 +136,14 @@ public class HappyPatientsService {
         Session session = connector.getSession();
         KeyspaceRepository sr = new KeyspaceRepository(session);
         sr.useKeyspace("hospitalOps");
-        Producer m = new Messager.Producer();
-        m.sendMessage("Hello World!");
-        AnalyticsConsumer consumer1 = new Messager.AnalyticsConsumer();
-        EmailConsumer consumer2 = new Messager.EmailConsumer();
-        consumer1.run();
-        consumer2.run();
         PatientPersonalInfo ppi = new PatientPersonalInfo(session);
         ppi.updatePatient(id,patient);
+        Producer producer = new Messager.Producer();
+        Messager.thread(producer, false);
+        producer.sendMessage("Patient Successfully Updated");
+        Messager.thread(new Producer(), false);
+        Messager.thread(new Messager.EmailConsumer(), false);
+        Messager.thread(new Messager.AnalyticsConsumer(), false);
         Patient p = ppi.selectById(id);
         connector.close();
         String output = "Patient info updated: " + p.toString();

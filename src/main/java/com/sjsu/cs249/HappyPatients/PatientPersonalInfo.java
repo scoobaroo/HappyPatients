@@ -61,7 +61,7 @@ public class PatientPersonalInfo {
         				append(" phoneNumber='").append(patient.getPhoneNumber()).append("',").
         				append(" birthDate='").append(patient.getBirthDate()).append("',").
         				append(" status='").append(patient.getStatus()).append("' ").
-        				append(" WHERE id=").append(id);
+        				append(" WHERE id=").append(id).append(" IF EXISTS;");
         		final String query = sb.toString();
         		logger.debug("UPDATE Query:");
         		logger.debug(query);

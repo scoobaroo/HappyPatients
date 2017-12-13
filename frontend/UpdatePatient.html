@@ -1,8 +1,13 @@
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <script src="vendor/jquery/jquery.min.js"></script>
 <link href="css/round-about.css" rel="stylesheet">
+<script src = 'js/index.js'></script>
 <a href='index.html'>Home</a>
 <h1>Update Patient</h1>
+<h3>Select Patient:</h2>
+    <select style={width: 100px; min-width: 50px; max-width: 50px;} id = "select">
+
+    </select>
 <form>
     <label> First Name</label><br>
     <input id = "firstName" type="text"></input><br>
@@ -13,8 +18,8 @@
     <label> Phone Number</label><br>
     <input id="phoneNumber" type="text"></input><br>
     <label> Date Of Birth</label><br>
-    <input id = "dateOfBith" type="text"></input><br>
+    <input id = "birthDate" type="text"></input><br>
     <label> Status</label><br>
     <input id = "status" type="text"></input><br>
-    <button type="button" class="btn btn-primary">Submit</button>
+    <button type="button" class="btn btn-primary" id ="update">Submit</button>
 </form>
