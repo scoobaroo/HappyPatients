@@ -32,6 +32,7 @@ $(document).ready(function(){
                 contentType: "application/json; charset=utf-8",
                 success: function(res){ 
                     alert("Patient Successfully Deleted")
+                    window.location.href = "index.html";
                     // console.log(res.responseText);
                 },
                 error: function(err){

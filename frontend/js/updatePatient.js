@@ -27,6 +27,7 @@ $(document).ready(function(){
                 alert("Patient Successfully Updated");
                 console.log(res.responseText);
                 // alert(JSON.parse(res).responseText);
+                window.location.href = "index.html";
             },
             error: function(err){
                 console.log(err.responseText);
