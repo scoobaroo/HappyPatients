@@ -24,8 +24,9 @@ $(document).ready(function(){
             contentType: "application/json; charset=utf-8",
             dataType: 'json',
             success: function(res){ 
+                alert("Patient Successfully Updated");
                 console.log(res.responseText);
-                alert(JSON.parse(res).responseText);
+                // alert(JSON.parse(res).responseText);
             },
             error: function(err){
                 console.log(err.responseText);

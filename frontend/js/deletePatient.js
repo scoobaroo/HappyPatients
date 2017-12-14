@@ -23,7 +23,6 @@ $(document).ready(function(){
         var id;
         $('#deleteselect').change(function(){ 
             id = $(this).val();
-            alert(id);
         });
         $("#delete").click(function(){
             console.log("delete clicked");
@@ -32,9 +31,8 @@ $(document).ready(function(){
                 method: 'DELETE',
                 contentType: "application/json; charset=utf-8",
                 success: function(res){ 
-                    console.log(res);
-                    console.log(res.responseText);
-                    alert(res.responseText);
+                    alert("Patient Successfully Deleted")
+                    // console.log(res.responseText);
                 },
                 error: function(err){
                     console.log(err.responseText);

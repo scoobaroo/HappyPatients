@@ -66,7 +66,8 @@ $(document).ready(function(){
                 contentType: "application/json; charset=utf-8",
                 success: function(res){ 
                     console.log(res.responseText);
-                    alert(res.responseText);
+                    alert("Patient Successfully Updated");
+                    // alert(res.responseText);
                 },
                 error: function(err){
                     console.log(err.responseText);
