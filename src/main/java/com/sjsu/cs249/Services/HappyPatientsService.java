@@ -168,6 +168,9 @@ public class HappyPatientsService {
         PatientPersonalInfo ppi = new PatientPersonalInfo(session);
         patient.setId();
         ppi.insertPatient(patient);
+		Messager.thread(new Producer(), false);
+		Messager.thread(new Messager.EmailConsumer(), false);
+		Messager.thread(new Messager.AnalyticsConsumer(), false);
         connector.close();
         output = "Welcome Patient : " + patient.getFirstName() + ". Here is your ID: " + patient.getId();
         if (status.equals(property)) {
