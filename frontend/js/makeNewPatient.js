@@ -9,13 +9,17 @@ $(document).ready(function(){
         var birthDate = document.getElementById('birthDate').value;
         var status = document.getElementById('status').value;
         var phoneNumber = document.getElementById('phoneNumber').value;
+        var diagnosis = document.getElementById('diagnosis').value;
+        var treatment = document.getElementById('treatment').value;
         jsonObject={
             "firstName":firstName,
             "lastName":lastName,
             "address":address,
             "phoneNumber":phoneNumber,
             "status":status,
-            "birthDate":birthDate
+            "birthDate":birthDate,
+            "diagnosis":diagnosis,
+            "treatment":treatment
         }
         $.ajax({
             url: 'http://localhost:8080/rest/system/addPatient/',
