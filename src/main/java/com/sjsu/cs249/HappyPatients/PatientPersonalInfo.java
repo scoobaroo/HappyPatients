@@ -32,7 +32,9 @@ public class PatientPersonalInfo {
 
         public void createTablePatients() {
             StringBuilder sb = new StringBuilder("CREATE TABLE IF NOT EXISTS ").append(TABLE_NAME).append("(").append("id uuid PRIMARY KEY, ").append("firstName text,").
-                    append("lastName text,").append("birthDate text,").append("phoneNumber text,").append("address text,").append("status text);");
+                    append("lastName text,").append("birthDate text,").
+                    append("phoneNumber text,").append("address text,").
+                    append("diagnosis text,").append("treatment text,").append("status text);");
 
             final String query = sb.toString();
             session.execute(query);
@@ -46,9 +48,10 @@ public class PatientPersonalInfo {
         }
 
         public void insertPatient(Patient patient) {
-            StringBuilder sb = new StringBuilder("INSERT INTO ").append(TABLE_NAME).append("(id, firstName, lastName, birthDate, address, phoneNumber, status) ").
+            StringBuilder sb = new StringBuilder("INSERT INTO ").append(TABLE_NAME).append("(id, firstName, lastName, birthDate, address, phoneNumber, status, diagnosis, treatment) ").
                     append("VALUES (").append(patient.getId()).append(", '").append(patient.getFirstName()).append("', '").append(patient.getLastName()).append("', '")
-                    .append(patient.getBirthDate()).append("', '").append(patient.getAddress()).append("', '").append(patient.getPhoneNumber()).append("', '").append(patient.getStatus()).append("');");
+                    .append(patient.getBirthDate()).append("', '").append(patient.getAddress()).append("', '").append(patient.getPhoneNumber()).append("', '")
+                    .append(patient.getStatus()).append("', '").append(patient.getDiagnosis()).append("', '").append(patient.getTreatment()).append("');");
             final String query = sb.toString();
             session.execute(query);
         }
@@ -61,7 +64,9 @@ public class PatientPersonalInfo {
         				append(" address='").append(patient.getAddress()).append("',").
         				append(" phoneNumber='").append(patient.getPhoneNumber()).append("',").
         				append(" birthDate='").append(patient.getBirthDate()).append("',").
-        				append(" status='").append(patient.getStatus()).append("' ").
+        				append(" status='").append(patient.getStatus()).append("',").
+        				append(" diagnosis='").append(patient.getDiagnosis()).append("',").
+        				append(" treatment='").append(patient.getTreatment()).append("'").
         				append(" WHERE id=").append(uuid).append(" IF EXISTS;");
         		final String query = sb.toString();
         		logger.debug("UPDATE Query:");
@@ -76,7 +81,8 @@ public class PatientPersonalInfo {
             List<Patient> patients = new ArrayList<Patient>();
             for (Row r : rs) {
                 Patient p = new Patient(r.getUUID("id"), r.getString("firstName"), r.getString("lastName"),
-                        r.getString("birthDate") , r.getString("address"), r.getString("phoneNumber"), r.getString("status"));
+                        r.getString("birthDate") , r.getString("address"), r.getString("phoneNumber"), r.getString("status"),
+                        r.getString("diagnosis"), r.getString("treatment"));
                 patients.add(p);
             }
             if(patients.size()>0) {
@@ -93,17 +99,11 @@ public class PatientPersonalInfo {
             List<Patient> patients = new ArrayList<Patient>();
             for (Row r : rs) {
                 Patient p = new Patient(r.getUUID("id"), r.getString("firstName"), r.getString("lastName"),
-                        r.getString("birthDate") , r.getString("address"), r.getString("phoneNumber"), r.getString("status"));
+                        r.getString("birthDate") , r.getString("address"), r.getString("phoneNumber"), r.getString("status"),
+                        r.getString("diagnosis"), r.getString("treatment"));
                 if(p.getStatus().equalsIgnoreCase("ICU")) {
-                		HashMap<String, String> map = new HashMap<>();
                 		System.out.println("Putting patient " + p.getFirstName() + " in cache");
-                		map.put("id", p.getId().toString());
-                		map.put("firstName", p.getFirstName());
-                		map.put("lastName", p.getLastName());
-                		map.put("status", p.getStatus());
-                		map.put("address", p.getAddress());
-                		map.put("phoneNumber", p.getPhoneNumber());
-                		cache.putContentInCache(p.getId().toString(), map);
+                		cache.putContentInCache(p.getId().toString(), p.toMap());
                 }
                 patients.add(p);
             }
@@ -123,7 +123,7 @@ public class PatientPersonalInfo {
         }
 
 		public List<Patient> selectPatientsWithStatus(String status) {
-			// TODO Auto-generated method stub
+			// TODO Auto-generated method stubs
 			return null;
 		}
 

@@ -133,6 +133,8 @@ public class HappyPatientsService {
 		String lastName = patient.getLastName();
 		String address = patient.getAddress();
 		String status = patient.getStatus();
+		String diagnosis = patient.getDiagnosis();
+		String treatment = patient.getTreatment();
 		String regexPhoneNumber = "^(1\\-)?[0-9]{3}\\-?[0-9]{3}\\-?[0-9]{4}$";
 		String output = "";
 		String regexBirthDate = "^(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\\d\\d$";
@@ -156,8 +158,8 @@ public class HappyPatientsService {
 			output = "Invalid address. Address cannot be kept blank and it cannot have more than 200 characters.";
 			return Response.status(200).entity(output).build();
 		}
-		if ((!status.equals("ICU")) && (!status.equals("Observation")) && (!status.equals("Urgent Care"))
-				&& (!status.equals("Discharged"))) {
+		if ((!status.equalsIgnoreCase("ICU")) && (!status.equalsIgnoreCase("Observation")) && (!status.equalsIgnoreCase("Urgent Care"))
+				&& (!status.equalsIgnoreCase("Discharged"))) {
 			output = "Invalid status. It can be either ICU, Discharged, Obervation or Urgent Care.";
 			return Response.status(200).entity(output).build();
 		}
@@ -174,14 +176,15 @@ public class HappyPatientsService {
         connector.close();
         output = "Welcome Patient : " + patient.getFirstName() + ". Here is your ID: " + patient.getId();
         if (status.equals(property)) {
-			HashMap<String, String> map = new HashMap<String, String>();
-			System.out.println("Putting patient " + patient.getFirstName() + " in cache");
-			map.put("id", patient.getId().toString());
-			map.put("firstName", patient.getFirstName());
-			map.put("lastName", patient.getLastName());
-			map.put("status", patient.getStatus());
-			map.put("address", patient.getAddress());
-			map.put("phoneNumber", patient.getPhoneNumber());
+    			HashMap<String, String> map = new HashMap<String, String>();
+	    		map.put("id", patient.getId().toString());
+	    		map.put("firstName", firstName);
+	    		map.put("lastName", lastName);
+	    		map.put("status", status);
+	    		map.put("address", address);
+	    		map.put("phoneNumber", phoneNumber);
+	    		map.put("diagnosis", diagnosis);
+	    		map.put("treatment", treatment);
 			cache.putContentInCache(patient.getId().toString(), map);
         }
         return Response.status(200).entity(output).build();
@@ -197,6 +200,8 @@ public class HappyPatientsService {
 		String lastName = patient.getLastName();
 		String address = patient.getAddress();
 		String status = patient.getStatus();
+		String diagnosis = patient.getDiagnosis();
+		String treatment = patient.getTreatment();
 
 		String regexPhoneNumber = "^(1\\-)?[0-9]{3}\\-?[0-9]{3}\\-?[0-9]{4}$";
 		String output = "";
@@ -222,8 +227,8 @@ public class HappyPatientsService {
 			output = "Invalid address. Address cannot be kept blank and it cannot have more than 200 characters.";
 			return Response.status(200).entity(output).build();
 		}	
-		if ((!status.equals("ICU")) && (!status.equals("Observation")) && (!status.equals("Urgent Care"))
-				&& (!status.equals("Discharged"))) {
+		if ((!status.equalsIgnoreCase("ICU")) && (!status.equalsIgnoreCase("Observation")) && (!status.equalsIgnoreCase("Urgent Care"))
+				&& (!status.equalsIgnoreCase("Discharged"))) {
 			output = "Invalid status. It can be either ICU, Discharged, Obervation or Urgent Care.";
 			return Response.status(200).entity(output).build();
 		}
@@ -246,14 +251,17 @@ public class HappyPatientsService {
 			Messager.thread(new Messager.EmailConsumer(), false);
 			Messager.thread(new Messager.AnalyticsConsumer(), false);
 			if (status.equals(property)) {
-				HashMap<String, String> map = new HashMap<String, String>();
 				System.out.println("Putting patient " + patient.getFirstName() + " in cache");
-				map.put("firstName", firstName);
-				map.put("lastName", lastName);
-				map.put("status", status);
-				map.put("address", address);
-				map.put("phoneNumber", phoneNumber);
-				cache.putContentInCache(id, map);
+		    		HashMap<String, String> map = new HashMap<String, String>();
+		    		map.put("id", id.toString());
+		    		map.put("firstName", firstName);
+		    		map.put("lastName", lastName);
+		    		map.put("status", status);
+		    		map.put("address", address);
+		    		map.put("phoneNumber", phoneNumber);
+		    		map.put("diagnosis", diagnosis);
+		    		map.put("treatment", treatment);
+				cache.putContentInCache(id.toString(), map);
 			}
 			return Response.status(200).entity(output).build();
 		}

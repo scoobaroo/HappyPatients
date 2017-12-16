@@ -93,7 +93,10 @@ $(document).ready(function(){
                     "</a><span>" +p.address +"</span>"+
                     "</a><span>" +p.phoneNumber +"</span>"+
                     "</a><span>" +p.birthDate +"</span>"+
-                    "</a><span>" +p.status +"</span></p></li>"
+                    "</a><span>" +p.status +"</span>"+
+                    "</a><span>" +p.diagnosis +"</span>"+
+                    "</a><span>" +p.treatment +"</span>"+
+                    "</p></li>"
                     html+=element;
                 })
                 $(".user-profiles-list-minimal").append(html);
