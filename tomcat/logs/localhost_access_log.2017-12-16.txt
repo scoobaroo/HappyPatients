@@ -205,3 +205,10 @@
 0:0:0:0:0:0:0:1 - - [16/Dec/2017:02:40:48 -0800] "GET /rest/system/retrieveAll HTTP/1.1" 200 964
 0:0:0:0:0:0:0:1 - - [16/Dec/2017:02:40:52 -0800] "GET /rest/system/retrieveAll HTTP/1.1" 200 964
 0:0:0:0:0:0:0:1 - - [16/Dec/2017:02:41:24 -0800] "OPTIONS /rest/system/retrieveAll HTTP/1.1" 200 559
+0:0:0:0:0:0:0:1 - - [16/Dec/2017:02:41:29 -0800] "GET /rest/system/retrieveAll HTTP/1.1" 200 964
+0:0:0:0:0:0:0:1 - - [16/Dec/2017:02:42:04 -0800] "OPTIONS /rest/system/deletePatient/ec828210-e24b-11e7-8963-5d56fe8b9019 HTTP/1.1" 200 603
+0:0:0:0:0:0:0:1 - - [16/Dec/2017:02:42:09 -0800] "DELETE /rest/system/deletePatient/ec828210-e24b-11e7-8963-5d56fe8b9019 HTTP/1.1" 200 33
+0:0:0:0:0:0:0:1 - - [16/Dec/2017:02:42:11 -0800] "OPTIONS /rest/system/retrieveAll HTTP/1.1" 200 559
+0:0:0:0:0:0:0:1 - - [16/Dec/2017:02:42:11 -0800] "OPTIONS /rest/system/retrieveAll HTTP/1.1" 200 559
+0:0:0:0:0:0:0:1 - - [16/Dec/2017:02:42:16 -0800] "GET /rest/system/retrieveAll HTTP/1.1" 200 735
+0:0:0:0:0:0:0:1 - - [16/Dec/2017:02:42:20 -0800] "GET /rest/system/retrieveAll HTTP/1.1" 200 735

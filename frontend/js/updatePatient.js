@@ -1,5 +1,5 @@
 
-console.log("inside updatePatient.js");
+console.log("populating update patient select");
 $(document).ready(function(){
     var patients;
     $.ajax({

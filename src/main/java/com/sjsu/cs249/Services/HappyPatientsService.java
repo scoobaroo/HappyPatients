@@ -270,17 +270,35 @@ public class HappyPatientsService {
     @DELETE
     @Path("/deletePatient/{param}")
     public Response deletePatient(@PathParam("param") UUID patientId) throws IOException {
-        String patientName = "";
-        connector.connect("127.0.0.1", 9042);
-        Session session = connector.getSession();
-        KeyspaceRepository sr = new KeyspaceRepository(session);
-        sr.useKeyspace("hospitalOps");
-        PatientPersonalInfo ppi = new PatientPersonalInfo(session);
-        patientName = ppi.selectById(patientId).getFirstName() + " " + ppi.selectById(patientId).getLastName();
-        ppi.deletePatientById(patientId);
-        connector.close();
-        String output = "Removed Patient : " + patientName;
-        return Response.status(200).entity(output).build();
+    		String patientName = "";
+		connector.connect("127.0.0.1", 9042);
+		Session session = connector.getSession();
+		KeyspaceRepository sr = new KeyspaceRepository(session);
+		sr.useKeyspace("hospitalOps");
+		PatientPersonalInfo ppi = new PatientPersonalInfo(session);
+		Patient patient = ppi.selectById(patientId);
+		try {
+			patientName = ppi.selectById(patientId).getFirstName() + " " + ppi.selectById(patientId).getLastName();
+			ppi.deletePatientById(patientId);
+
+		} catch (Exception e) {
+			logger.error("Patient with given Id does not exist.", e);
+		}
+		connector.close();
+		String output = "";
+		if (patientName == "") {
+			output = "Patient with given Id does not exist.";
+			return Response.status(200).entity(output).build();
+		} else {
+			output = "Removed Patient : " + patientName;
+			
+			String status = patient.getStatus();
+			if (status.equals(property)) {
+				System.out.println("Deleting patient " + patient.getFirstName() + " from cache");
+				cache.deleteContentFromCache(patient.getId().toString());
+			}
+			return Response.status(200).entity(output).build();
+		}
     }
 
     @DELETE

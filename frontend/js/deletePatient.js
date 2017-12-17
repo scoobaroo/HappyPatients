@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    console.log("populating patients in select...");
+    console.log("populating patients in delete select...");
     var patients;
     $.ajax({
         url: 'http://localhost:8080/rest/system/retrieveAll',
