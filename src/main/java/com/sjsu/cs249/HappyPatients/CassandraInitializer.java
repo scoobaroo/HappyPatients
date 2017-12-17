@@ -22,7 +22,7 @@ public class CassandraInitializer {
         sr.createKeyspace("hospitalOps", "SimpleStrategy", 1);
         sr.useKeyspace("hospitalOps");
         PatientPersonalInfo ppi = new PatientPersonalInfo(session);
-        ppi.deleteTable("PatientPersonalInfo");
+//        ppi.deleteTable("PatientPersonalInfo");
         ppi.createTablePatients();
         Patient patient = new Patient(UUIDs.timeBased(), "John", "Doe", "1992-09-22", "555 SJSU drive San Jose, CA", "408-555-5555","ICU" , "Cancer", "Chemo");
         ppi.insertPatient(patient);

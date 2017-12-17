@@ -15,13 +15,11 @@ import javax.jms.TextMessage;
 import javax.swing.*;
 
 public class Messager {
-
     public static void thread(Runnable runnable, boolean daemon) {
         Thread brokerThread = new Thread(runnable);
         brokerThread.setDaemon(daemon);
         brokerThread.start();
     }
- 
     public static class Producer implements Runnable {
     		public void sendMessage(String msg) {
     			try {
