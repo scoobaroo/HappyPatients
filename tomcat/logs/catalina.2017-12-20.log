@@ -1,0 +1,881 @@
+20-Dec-2017 00:18:53.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+20-Dec-2017 00:18:53.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+20-Dec-2017 00:18:53.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+20-Dec-2017 00:18:53.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Dec-2017 00:18:53.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.2
+20-Dec-2017 00:18:53.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Dec-2017 00:18:53.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+20-Dec-2017 00:18:53.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+20-Dec-2017 00:18:53.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2017 00:18:53.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 00:18:53.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 00:18:53.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/conf/logging.properties
+20-Dec-2017 00:18:53.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2017 00:18:53.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Dec-2017 00:18:53.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Dec-2017 00:18:53.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Dec-2017 00:18:53.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 00:18:53.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 00:18:53.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/temp
+20-Dec-2017 00:18:53.446 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/erichan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Dec-2017 00:18:53.615 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 00:18:53.654 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Dec-2017 00:18:53.662 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 00:18:53.663 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Dec-2017 00:18:53.663 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 626 ms
+20-Dec-2017 00:18:53.694 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2017 00:18:53.694 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+20-Dec-2017 00:18:53.703 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml]
+20-Dec-2017 00:18:55.572 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2017 00:18:56.348 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/ROOT] is unusable.
+20-Dec-2017 00:18:56.360 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml] has finished in [2,656] ms
+20-Dec-2017 00:18:56.360 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs]
+20-Dec-2017 00:18:56.373 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/docs] is unusable.
+20-Dec-2017 00:18:56.374 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs] has finished in [14] ms
+20-Dec-2017 00:18:56.374 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager]
+20-Dec-2017 00:18:56.396 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager] has finished in [22] ms
+20-Dec-2017 00:18:56.396 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples]
+20-Dec-2017 00:18:56.656 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/examples] is unusable.
+20-Dec-2017 00:18:56.657 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples] has finished in [261] ms
+20-Dec-2017 00:18:56.657 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager]
+20-Dec-2017 00:18:56.672 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager] has finished in [15] ms
+20-Dec-2017 00:18:56.674 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 00:18:56.681 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 00:18:56.682 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3018 ms
+20-Dec-2017 00:28:29.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+20-Dec-2017 00:28:29.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+20-Dec-2017 00:28:29.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+20-Dec-2017 00:28:29.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Dec-2017 00:28:29.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.2
+20-Dec-2017 00:28:29.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Dec-2017 00:28:29.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+20-Dec-2017 00:28:29.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+20-Dec-2017 00:28:29.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2017 00:28:29.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 00:28:29.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 00:28:29.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/conf/logging.properties
+20-Dec-2017 00:28:29.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2017 00:28:29.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Dec-2017 00:28:29.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Dec-2017 00:28:29.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Dec-2017 00:28:29.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 00:28:29.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 00:28:29.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/temp
+20-Dec-2017 00:28:29.265 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/erichan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Dec-2017 00:28:29.352 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 00:28:29.369 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1082)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:267)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:66)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+20-Dec-2017 00:28:29.371 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 00:28:29.372 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1082)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:267)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+20-Dec-2017 00:28:29.373 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 371 ms
+20-Dec-2017 00:28:29.393 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2017 00:28:29.393 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+20-Dec-2017 00:28:29.399 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml]
+20-Dec-2017 00:28:31.204 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2017 00:28:32.176 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/ROOT] is unusable.
+20-Dec-2017 00:28:32.187 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml] has finished in [2,788] ms
+20-Dec-2017 00:28:32.188 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs]
+20-Dec-2017 00:28:32.200 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/docs] is unusable.
+20-Dec-2017 00:28:32.201 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs] has finished in [13] ms
+20-Dec-2017 00:28:32.201 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager]
+20-Dec-2017 00:28:32.224 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager] has finished in [23] ms
+20-Dec-2017 00:28:32.224 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples]
+20-Dec-2017 00:28:32.461 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/examples] is unusable.
+20-Dec-2017 00:28:32.462 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples] has finished in [238] ms
+20-Dec-2017 00:28:32.462 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager]
+20-Dec-2017 00:28:32.477 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager] has finished in [15] ms
+20-Dec-2017 00:28:32.479 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3106 ms
+20-Dec-2017 00:28:32.484 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:440)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:758)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:704)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+20-Dec-2017 00:28:32.484 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 00:28:32.485 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 00:28:32.485 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2017 00:28:32.510 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 00:28:32.510 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 00:28:32.510 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 00:28:32.511 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 00:40:50.026 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+20-Dec-2017 00:40:50.035 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+20-Dec-2017 00:40:50.036 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+20-Dec-2017 00:40:50.036 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+20-Dec-2017 00:40:50.036 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+20-Dec-2017 00:40:50.037 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+20-Dec-2017 00:40:50.037 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+20-Dec-2017 00:40:50.038 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@729134d7]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@f4e92dc]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Dec-2017 00:40:50.038 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@729134d7]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@742e6aed]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Dec-2017 00:40:51.918 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/ROOT] is unusable.
+20-Dec-2017 00:40:51.919 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+20-Dec-2017 01:13:42.021 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+20-Dec-2017 01:13:42.027 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+20-Dec-2017 01:13:44.377 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/ROOT] is unusable.
+20-Dec-2017 01:13:44.378 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+20-Dec-2017 01:58:24.370 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Dec-2017 01:58:24.370 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 01:58:24.424 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 01:58:24.477 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2017 01:58:24.497 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+20-Dec-2017 01:58:24.498 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+20-Dec-2017 01:58:24.498 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+20-Dec-2017 01:58:24.498 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+20-Dec-2017 01:58:24.499 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+20-Dec-2017 01:58:24.499 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+20-Dec-2017 01:58:24.499 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@f8a6ef9]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@34ca4c12]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Dec-2017 01:58:24.507 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 01:58:24.507 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 01:58:24.508 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 01:58:24.508 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 01:58:30.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+20-Dec-2017 01:58:30.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+20-Dec-2017 01:58:30.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+20-Dec-2017 01:58:30.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Dec-2017 01:58:30.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.2
+20-Dec-2017 01:58:30.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Dec-2017 01:58:30.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+20-Dec-2017 01:58:30.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+20-Dec-2017 01:58:30.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2017 01:58:30.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 01:58:30.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 01:58:30.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/conf/logging.properties
+20-Dec-2017 01:58:30.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2017 01:58:30.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Dec-2017 01:58:30.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Dec-2017 01:58:30.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Dec-2017 01:58:30.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 01:58:30.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 01:58:30.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/temp
+20-Dec-2017 01:58:30.206 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/erichan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Dec-2017 01:58:30.323 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 01:58:30.347 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Dec-2017 01:58:30.353 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 01:58:30.354 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Dec-2017 01:58:30.355 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 441 ms
+20-Dec-2017 01:58:30.377 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2017 01:58:30.377 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+20-Dec-2017 01:58:30.385 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml]
+20-Dec-2017 01:58:32.300 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2017 01:58:33.046 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/ROOT] is unusable.
+20-Dec-2017 01:58:33.055 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml] has finished in [2,670] ms
+20-Dec-2017 01:58:33.056 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs]
+20-Dec-2017 01:58:33.065 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/docs] is unusable.
+20-Dec-2017 01:58:33.066 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs] has finished in [9] ms
+20-Dec-2017 01:58:33.066 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager]
+20-Dec-2017 01:58:33.086 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager] has finished in [20] ms
+20-Dec-2017 01:58:33.086 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples]
+20-Dec-2017 01:58:33.296 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/examples] is unusable.
+20-Dec-2017 01:58:33.297 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples] has finished in [211] ms
+20-Dec-2017 01:58:33.297 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager]
+20-Dec-2017 01:58:33.308 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager] has finished in [11] ms
+20-Dec-2017 01:58:33.310 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 01:58:33.316 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 01:58:33.318 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2962 ms
+20-Dec-2017 01:59:36.303 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Dec-2017 01:59:36.304 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 01:59:36.362 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 01:59:36.415 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2017 01:59:36.445 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 01:59:36.447 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 01:59:36.447 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 01:59:36.448 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 01:59:37.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+20-Dec-2017 01:59:37.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+20-Dec-2017 01:59:37.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+20-Dec-2017 01:59:37.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Dec-2017 01:59:37.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.2
+20-Dec-2017 01:59:37.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Dec-2017 01:59:37.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+20-Dec-2017 01:59:37.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+20-Dec-2017 01:59:37.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2017 01:59:37.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 01:59:37.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 01:59:37.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/conf/logging.properties
+20-Dec-2017 01:59:37.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2017 01:59:37.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Dec-2017 01:59:37.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Dec-2017 01:59:37.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Dec-2017 01:59:37.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 01:59:37.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 01:59:37.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/temp
+20-Dec-2017 01:59:37.831 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/erichan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Dec-2017 01:59:37.920 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 01:59:37.942 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Dec-2017 01:59:37.947 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 01:59:37.948 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Dec-2017 01:59:37.949 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 382 ms
+20-Dec-2017 01:59:37.972 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2017 01:59:37.981 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+20-Dec-2017 01:59:37.987 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml]
+20-Dec-2017 01:59:39.877 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2017 01:59:40.609 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/ROOT] is unusable.
+20-Dec-2017 01:59:40.615 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml] has finished in [2,628] ms
+20-Dec-2017 01:59:40.645 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs]
+20-Dec-2017 01:59:40.653 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/docs] is unusable.
+20-Dec-2017 01:59:40.653 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs] has finished in [9] ms
+20-Dec-2017 01:59:40.654 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager]
+20-Dec-2017 01:59:40.670 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager] has finished in [15] ms
+20-Dec-2017 01:59:40.670 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples]
+20-Dec-2017 01:59:40.841 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/examples] is unusable.
+20-Dec-2017 01:59:40.842 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples] has finished in [172] ms
+20-Dec-2017 01:59:40.842 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager]
+20-Dec-2017 01:59:40.853 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager] has finished in [11] ms
+20-Dec-2017 01:59:40.855 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 01:59:40.860 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 01:59:40.861 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2912 ms
+20-Dec-2017 02:05:48.443 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Dec-2017 02:05:48.443 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:05:48.580 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:05:48.635 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2017 02:05:48.649 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+20-Dec-2017 02:05:48.650 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+20-Dec-2017 02:05:48.650 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+20-Dec-2017 02:05:48.651 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@56117699]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@684570cf]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Dec-2017 02:05:48.660 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:05:48.660 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:05:48.661 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:05:48.661 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:05:50.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+20-Dec-2017 02:05:50.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+20-Dec-2017 02:05:50.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+20-Dec-2017 02:05:50.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Dec-2017 02:05:50.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.2
+20-Dec-2017 02:05:50.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Dec-2017 02:05:50.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+20-Dec-2017 02:05:50.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+20-Dec-2017 02:05:50.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2017 02:05:50.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 02:05:50.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 02:05:50.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/conf/logging.properties
+20-Dec-2017 02:05:50.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2017 02:05:50.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Dec-2017 02:05:50.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Dec-2017 02:05:50.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Dec-2017 02:05:50.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 02:05:50.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 02:05:50.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/temp
+20-Dec-2017 02:05:50.883 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/erichan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Dec-2017 02:05:50.971 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:05:50.993 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Dec-2017 02:05:50.998 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:05:51.000 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Dec-2017 02:05:51.000 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 383 ms
+20-Dec-2017 02:05:51.020 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2017 02:05:51.021 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+20-Dec-2017 02:05:51.027 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml]
+20-Dec-2017 02:05:52.750 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2017 02:05:53.581 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/ROOT] is unusable.
+20-Dec-2017 02:05:53.589 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml] has finished in [2,562] ms
+20-Dec-2017 02:05:53.590 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs]
+20-Dec-2017 02:05:53.599 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/docs] is unusable.
+20-Dec-2017 02:05:53.600 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs] has finished in [10] ms
+20-Dec-2017 02:05:53.600 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager]
+20-Dec-2017 02:05:53.617 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager] has finished in [17] ms
+20-Dec-2017 02:05:53.617 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples]
+20-Dec-2017 02:05:53.806 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/examples] is unusable.
+20-Dec-2017 02:05:53.806 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples] has finished in [189] ms
+20-Dec-2017 02:05:53.806 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager]
+20-Dec-2017 02:05:53.820 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager] has finished in [14] ms
+20-Dec-2017 02:05:53.822 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:05:53.827 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:05:53.828 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2827 ms
+20-Dec-2017 02:07:21.493 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Dec-2017 02:07:21.493 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:07:21.547 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:07:21.602 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2017 02:07:21.625 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:07:21.627 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:07:21.628 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:07:21.628 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:07:22.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+20-Dec-2017 02:07:22.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+20-Dec-2017 02:07:22.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+20-Dec-2017 02:07:22.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Dec-2017 02:07:22.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.2
+20-Dec-2017 02:07:22.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Dec-2017 02:07:22.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+20-Dec-2017 02:07:22.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+20-Dec-2017 02:07:22.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2017 02:07:22.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 02:07:22.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 02:07:22.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/conf/logging.properties
+20-Dec-2017 02:07:22.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2017 02:07:22.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Dec-2017 02:07:22.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Dec-2017 02:07:22.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Dec-2017 02:07:22.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 02:07:22.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 02:07:22.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/temp
+20-Dec-2017 02:07:22.823 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/erichan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Dec-2017 02:07:22.909 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:07:22.931 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Dec-2017 02:07:22.936 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:07:22.937 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Dec-2017 02:07:22.937 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 373 ms
+20-Dec-2017 02:07:22.957 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2017 02:07:22.957 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+20-Dec-2017 02:07:22.962 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml]
+20-Dec-2017 02:07:24.786 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2017 02:07:25.638 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/ROOT] is unusable.
+20-Dec-2017 02:07:25.643 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml] has finished in [2,681] ms
+20-Dec-2017 02:07:25.644 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs]
+20-Dec-2017 02:07:25.652 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/docs] is unusable.
+20-Dec-2017 02:07:25.653 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs] has finished in [9] ms
+20-Dec-2017 02:07:25.653 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager]
+20-Dec-2017 02:07:25.669 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager] has finished in [16] ms
+20-Dec-2017 02:07:25.669 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples]
+20-Dec-2017 02:07:25.843 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/examples] is unusable.
+20-Dec-2017 02:07:25.844 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples] has finished in [175] ms
+20-Dec-2017 02:07:25.844 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager]
+20-Dec-2017 02:07:25.857 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager] has finished in [13] ms
+20-Dec-2017 02:07:25.859 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:07:25.865 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:07:25.867 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2929 ms
+20-Dec-2017 02:13:07.741 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+20-Dec-2017 02:13:10.175 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/ROOT] is unusable.
+20-Dec-2017 02:13:10.177 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+20-Dec-2017 02:14:28.180 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Dec-2017 02:14:28.181 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:14:28.236 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:14:28.289 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2017 02:14:28.320 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:14:28.323 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:14:28.324 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:14:28.324 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:14:29.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+20-Dec-2017 02:14:29.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+20-Dec-2017 02:14:29.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+20-Dec-2017 02:14:29.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Dec-2017 02:14:29.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.2
+20-Dec-2017 02:14:29.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Dec-2017 02:14:29.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+20-Dec-2017 02:14:29.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+20-Dec-2017 02:14:29.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2017 02:14:29.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 02:14:29.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 02:14:29.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/conf/logging.properties
+20-Dec-2017 02:14:29.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2017 02:14:29.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Dec-2017 02:14:29.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Dec-2017 02:14:29.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Dec-2017 02:14:29.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 02:14:29.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 02:14:29.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/temp
+20-Dec-2017 02:14:29.598 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/erichan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Dec-2017 02:14:29.689 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:14:29.711 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Dec-2017 02:14:29.716 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:14:29.717 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Dec-2017 02:14:29.718 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 406 ms
+20-Dec-2017 02:14:29.739 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2017 02:14:29.740 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+20-Dec-2017 02:14:29.746 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml]
+20-Dec-2017 02:14:31.604 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2017 02:14:32.325 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/ROOT] is unusable.
+20-Dec-2017 02:14:32.359 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml] has finished in [2,612] ms
+20-Dec-2017 02:14:32.359 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs]
+20-Dec-2017 02:14:32.368 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/docs] is unusable.
+20-Dec-2017 02:14:32.369 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs] has finished in [9] ms
+20-Dec-2017 02:14:32.369 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager]
+20-Dec-2017 02:14:32.386 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager] has finished in [16] ms
+20-Dec-2017 02:14:32.386 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples]
+20-Dec-2017 02:14:32.611 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/examples] is unusable.
+20-Dec-2017 02:14:32.612 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples] has finished in [226] ms
+20-Dec-2017 02:14:32.612 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager]
+20-Dec-2017 02:14:32.624 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager] has finished in [12] ms
+20-Dec-2017 02:14:32.626 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:14:32.631 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:14:32.632 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2914 ms
+20-Dec-2017 02:19:30.700 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Dec-2017 02:19:30.700 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:19:30.758 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:19:30.810 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2017 02:19:30.830 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+20-Dec-2017 02:19:30.831 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+20-Dec-2017 02:19:30.831 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+20-Dec-2017 02:19:30.832 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@b4a9b76]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@2048ae8c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Dec-2017 02:19:30.844 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:19:30.844 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:19:30.845 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:19:30.845 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:19:32.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+20-Dec-2017 02:19:32.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+20-Dec-2017 02:19:32.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+20-Dec-2017 02:19:32.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Dec-2017 02:19:32.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.2
+20-Dec-2017 02:19:32.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Dec-2017 02:19:32.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+20-Dec-2017 02:19:32.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+20-Dec-2017 02:19:32.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2017 02:19:32.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 02:19:32.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 02:19:32.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/conf/logging.properties
+20-Dec-2017 02:19:32.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2017 02:19:32.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Dec-2017 02:19:32.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Dec-2017 02:19:32.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Dec-2017 02:19:32.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 02:19:32.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 02:19:32.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/temp
+20-Dec-2017 02:19:32.032 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/erichan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Dec-2017 02:19:32.129 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:19:32.153 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Dec-2017 02:19:32.158 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:19:32.159 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Dec-2017 02:19:32.160 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 398 ms
+20-Dec-2017 02:19:32.182 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2017 02:19:32.182 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+20-Dec-2017 02:19:32.189 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml]
+20-Dec-2017 02:19:34.036 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2017 02:19:34.861 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/ROOT] is unusable.
+20-Dec-2017 02:19:34.867 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml] has finished in [2,678] ms
+20-Dec-2017 02:19:34.868 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs]
+20-Dec-2017 02:19:34.879 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/docs] is unusable.
+20-Dec-2017 02:19:34.879 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs] has finished in [11] ms
+20-Dec-2017 02:19:34.879 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager]
+20-Dec-2017 02:19:34.897 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager] has finished in [18] ms
+20-Dec-2017 02:19:34.897 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples]
+20-Dec-2017 02:19:35.126 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/examples] is unusable.
+20-Dec-2017 02:19:35.126 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples] has finished in [229] ms
+20-Dec-2017 02:19:35.127 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager]
+20-Dec-2017 02:19:35.139 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager] has finished in [11] ms
+20-Dec-2017 02:19:35.140 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:19:35.145 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:19:35.146 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2986 ms
+20-Dec-2017 02:22:31.200 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Dec-2017 02:22:31.200 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:22:31.255 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:22:31.307 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2017 02:22:31.330 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:22:31.332 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:22:31.333 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:22:31.333 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:22:32.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+20-Dec-2017 02:22:32.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+20-Dec-2017 02:22:32.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+20-Dec-2017 02:22:32.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Dec-2017 02:22:32.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.2
+20-Dec-2017 02:22:32.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Dec-2017 02:22:32.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+20-Dec-2017 02:22:32.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+20-Dec-2017 02:22:32.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2017 02:22:32.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 02:22:32.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 02:22:32.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/conf/logging.properties
+20-Dec-2017 02:22:32.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2017 02:22:32.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Dec-2017 02:22:32.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Dec-2017 02:22:32.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Dec-2017 02:22:32.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 02:22:32.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 02:22:32.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/temp
+20-Dec-2017 02:22:32.309 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/erichan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Dec-2017 02:22:32.403 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:22:32.426 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Dec-2017 02:22:32.431 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:22:32.432 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Dec-2017 02:22:32.432 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 384 ms
+20-Dec-2017 02:22:32.455 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2017 02:22:32.455 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+20-Dec-2017 02:22:32.460 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml]
+20-Dec-2017 02:22:34.261 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2017 02:22:35.136 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/ROOT] is unusable.
+20-Dec-2017 02:22:35.142 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml] has finished in [2,681] ms
+20-Dec-2017 02:22:35.172 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs]
+20-Dec-2017 02:22:35.182 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/docs] is unusable.
+20-Dec-2017 02:22:35.183 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs] has finished in [11] ms
+20-Dec-2017 02:22:35.183 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager]
+20-Dec-2017 02:22:35.204 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager] has finished in [20] ms
+20-Dec-2017 02:22:35.204 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples]
+20-Dec-2017 02:22:35.426 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/examples] is unusable.
+20-Dec-2017 02:22:35.427 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples] has finished in [223] ms
+20-Dec-2017 02:22:35.427 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager]
+20-Dec-2017 02:22:35.438 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager] has finished in [11] ms
+20-Dec-2017 02:22:35.440 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:22:35.446 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:22:35.448 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3014 ms
+20-Dec-2017 02:24:38.672 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:24:38.676 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:24:38.677 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2017 02:24:38.695 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:24:38.697 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:24:38.698 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:24:38.699 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:27:34.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+20-Dec-2017 02:27:34.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+20-Dec-2017 02:27:34.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+20-Dec-2017 02:27:34.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Dec-2017 02:27:34.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.2
+20-Dec-2017 02:27:34.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Dec-2017 02:27:34.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+20-Dec-2017 02:27:34.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+20-Dec-2017 02:27:34.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2017 02:27:34.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 02:27:34.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 02:27:34.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/conf/logging.properties
+20-Dec-2017 02:27:34.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2017 02:27:34.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Dec-2017 02:27:34.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Dec-2017 02:27:34.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Dec-2017 02:27:34.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 02:27:34.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 02:27:34.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/temp
+20-Dec-2017 02:27:34.516 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/erichan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Dec-2017 02:27:34.630 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:27:34.654 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Dec-2017 02:27:34.660 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:27:34.661 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Dec-2017 02:27:34.661 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 469 ms
+20-Dec-2017 02:27:34.694 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2017 02:27:34.694 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+20-Dec-2017 02:27:34.702 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml]
+20-Dec-2017 02:27:37.557 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2017 02:27:38.942 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/ROOT] is unusable.
+20-Dec-2017 02:27:38.952 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml] has finished in [4,249] ms
+20-Dec-2017 02:27:38.953 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs]
+20-Dec-2017 02:27:38.964 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/docs] is unusable.
+20-Dec-2017 02:27:38.964 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs] has finished in [12] ms
+20-Dec-2017 02:27:38.964 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager]
+20-Dec-2017 02:27:38.995 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager] has finished in [31] ms
+20-Dec-2017 02:27:38.995 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples]
+20-Dec-2017 02:27:39.312 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/examples] is unusable.
+20-Dec-2017 02:27:39.313 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples] has finished in [318] ms
+20-Dec-2017 02:27:39.313 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager]
+20-Dec-2017 02:27:39.328 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager] has finished in [14] ms
+20-Dec-2017 02:27:39.331 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:27:39.336 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:27:39.337 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4675 ms
+20-Dec-2017 02:28:54.578 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Dec-2017 02:28:54.578 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:28:54.696 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:28:54.751 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2017 02:28:54.771 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+20-Dec-2017 02:28:54.771 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+20-Dec-2017 02:28:54.772 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Memcached IO over {MemcachedConnection to localhost/127.0.0.1:11211}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:434)
+ net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:1457)
+20-Dec-2017 02:28:54.772 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5ae4b0a1]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@7c11015d]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Dec-2017 02:28:54.789 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:28:54.790 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:28:54.791 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:28:54.792 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:28:57.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+20-Dec-2017 02:28:57.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+20-Dec-2017 02:28:57.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+20-Dec-2017 02:28:57.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Dec-2017 02:28:57.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.2
+20-Dec-2017 02:28:57.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Dec-2017 02:28:57.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+20-Dec-2017 02:28:57.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+20-Dec-2017 02:28:57.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2017 02:28:57.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 02:28:57.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 02:28:57.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/conf/logging.properties
+20-Dec-2017 02:28:57.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2017 02:28:57.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Dec-2017 02:28:57.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Dec-2017 02:28:57.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Dec-2017 02:28:57.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 02:28:57.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 02:28:57.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/temp
+20-Dec-2017 02:28:57.072 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/erichan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Dec-2017 02:28:57.156 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:28:57.177 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Dec-2017 02:28:57.182 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:28:57.183 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Dec-2017 02:28:57.184 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 374 ms
+20-Dec-2017 02:28:57.204 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2017 02:28:57.205 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+20-Dec-2017 02:28:57.210 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml]
+20-Dec-2017 02:28:59.558 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2017 02:29:00.608 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/ROOT] is unusable.
+20-Dec-2017 02:29:00.614 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml] has finished in [3,404] ms
+20-Dec-2017 02:29:00.615 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs]
+20-Dec-2017 02:29:00.624 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/docs] is unusable.
+20-Dec-2017 02:29:00.624 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs] has finished in [10] ms
+20-Dec-2017 02:29:00.624 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager]
+20-Dec-2017 02:29:00.641 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager] has finished in [17] ms
+20-Dec-2017 02:29:00.641 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples]
+20-Dec-2017 02:29:00.833 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/examples] is unusable.
+20-Dec-2017 02:29:00.834 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples] has finished in [192] ms
+20-Dec-2017 02:29:00.834 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager]
+20-Dec-2017 02:29:00.847 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager] has finished in [13] ms
+20-Dec-2017 02:29:00.850 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:29:00.855 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:29:00.856 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3672 ms
+20-Dec-2017 02:31:51.638 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+20-Dec-2017 02:31:54.284 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/ROOT] is unusable.
+20-Dec-2017 02:31:54.285 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+20-Dec-2017 02:37:24.456 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+20-Dec-2017 02:37:27.002 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/ROOT] is unusable.
+20-Dec-2017 02:37:27.003 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+20-Dec-2017 02:38:06.205 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Dec-2017 02:38:06.206 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:38:06.259 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:38:06.316 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2017 02:38:06.348 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:38:06.351 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:38:06.352 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:38:06.352 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:38:07.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+20-Dec-2017 02:38:07.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+20-Dec-2017 02:38:07.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+20-Dec-2017 02:38:07.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Dec-2017 02:38:07.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.2
+20-Dec-2017 02:38:07.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Dec-2017 02:38:07.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+20-Dec-2017 02:38:07.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+20-Dec-2017 02:38:07.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2017 02:38:07.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 02:38:07.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat
+20-Dec-2017 02:38:07.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/conf/logging.properties
+20-Dec-2017 02:38:07.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2017 02:38:07.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Dec-2017 02:38:07.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Dec-2017 02:38:07.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Dec-2017 02:38:07.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 02:38:07.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat
+20-Dec-2017 02:38:07.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/erichan/desktop/cs249distributedcomputing/happypatients/tomcat/temp
+20-Dec-2017 02:38:07.427 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/erichan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Dec-2017 02:38:07.516 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:38:07.540 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Dec-2017 02:38:07.545 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:38:07.546 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Dec-2017 02:38:07.546 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 394 ms
+20-Dec-2017 02:38:07.566 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2017 02:38:07.566 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+20-Dec-2017 02:38:07.572 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml]
+20-Dec-2017 02:38:10.061 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2017 02:38:11.137 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/ROOT] is unusable.
+20-Dec-2017 02:38:11.143 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/conf/Catalina/localhost/ROOT.xml] has finished in [3,571] ms
+20-Dec-2017 02:38:11.144 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs]
+20-Dec-2017 02:38:11.155 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/docs] is unusable.
+20-Dec-2017 02:38:11.155 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/docs] has finished in [11] ms
+20-Dec-2017 02:38:11.155 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager]
+20-Dec-2017 02:38:11.173 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/manager] has finished in [18] ms
+20-Dec-2017 02:38:11.173 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples]
+20-Dec-2017 02:38:11.371 SEVERE [localhost-startStop-1] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/work/Catalina/localhost/examples] is unusable.
+20-Dec-2017 02:38:11.372 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/examples] has finished in [198] ms
+20-Dec-2017 02:38:11.372 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager]
+20-Dec-2017 02:38:11.384 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/erichan/Desktop/CS249DistributedComputing/HappyPatients/tomcat/webapps/host-manager] has finished in [12] ms
+20-Dec-2017 02:38:11.387 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2017 02:38:11.393 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Dec-2017 02:38:11.395 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3848 ms
